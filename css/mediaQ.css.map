@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/mediaQ.scss"
+    ],
+    "names": [],
+    "file": "mediaQ.css"
+}

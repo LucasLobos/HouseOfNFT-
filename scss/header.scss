@@ -1,39 +1,17 @@
 
+@import "variables";
+
 .header {
     background-color: black;
-    border: 2px solid $secondayColor;
-    display: flex;
-    flex-direction: row;
-    flex-direction: wrap;
-    justify-content: space-around;
-}
-
-.logo {
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    width: 35%;
-
+    border-bottom: 2px solid $secondaryColor;
+    width: 2000px;
+    margin-right: 1200px;
+    height: 200px;
 }
 
 
-.navbar {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Palette Mosaic', cursive;
-    color: rgb(100, 61, 136);
-    font-size: 3rem;
-    display: flex;
-    padding-left: 0.5rem;
-    transition: all 2s;
-}
 
 .navbar-brand {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Palette Mosaic', cursive;
     color: rgb(100, 61, 136);
     font-size: 3rem;
     display: flex;
@@ -49,11 +27,6 @@
 
 }
 
-.collapse {
-
-    margin-left: 100px;
-}
-
 .nav-Logo-Title {
 
     display: flex;
@@ -63,28 +36,35 @@
 
 }
 
-.navbar-nav {
+.navbar-ul{
 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.navbar-nav{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 2rem;
-    justify-content: end;
-    list-style: none;
 
 }
 
 
 .navbar-nav li a {
 
+    
+    justify-content: end;
+    list-style: none;
     color: azure;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2.5rem;
     transition: all 2s;
 
 }
 
 .navbar-nav li a:Hover {
-    color: $secondayColor;
+    color: $secondaryColor;
 }
 
 
