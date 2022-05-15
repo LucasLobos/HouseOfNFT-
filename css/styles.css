@@ -12540,12 +12540,19 @@ fieldset:disabled .btn {
   }
 }
 
+@media (min-width: 768) and (max-width: 991px) {
+  /*    .buttonV{
+        height: 150px;
+        width: 90px;
+        margin-left: 30px;
+    }
+ */
+}
+
 .header {
   background-color: black;
   border-bottom: 2px solid #87006C;
-  width: 2000px;
-  margin-right: 1200px;
-  height: 200px;
+  width: 100vw;
 }
 
 .navbar-brand {
@@ -12575,9 +12582,6 @@ fieldset:disabled .btn {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .navbar-ul {
@@ -12642,6 +12646,14 @@ body {
   background-color: #14152c;
 }
 
+.container-index {
+  margin: 0;
+}
+
+.main {
+  margin: 0;
+}
+
 .img1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12658,7 +12670,7 @@ body {
   height: 450px;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 100%;
+  width: 100vw;
 }
 
 .img2 {
@@ -12704,7 +12716,7 @@ body {
 
 .surrealImage {
   height: 750px;
-  width: 100%;
+  width: 100vw;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -12764,5 +12776,14 @@ body {
 .buttonV:active {
   -webkit-box-shadow: 0 0 0.6em 0.25em var(--glow-color), 0 0 2.5em 2em var(--glow-spread-color), inset 0 0 0.5em 0.25em var(--glow-color);
           box-shadow: 0 0 0.6em 0.25em var(--glow-color), 0 0 2.5em 2em var(--glow-spread-color), inset 0 0 0.5em 0.25em var(--glow-color);
+}
+
+@media (min-width: 768) and (max-width: 991px) {
+  /*    .buttonV{
+        height: 150px;
+        width: 90px;
+        margin-left: 30px;
+    }
+ */
 }
 /*# sourceMappingURL=styles.css.map */

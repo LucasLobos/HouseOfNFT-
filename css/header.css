@@ -1,9 +1,18 @@
+@media (max-width: 768) and (max-width: 991px) {
+  /*     .buttonV{
+        height: 150px;
+        width: 90px;
+        margin-top: 400px;
+        margin-left: 30
+
+    }
+ */
+}
+
 .header {
   background-color: black;
   border-bottom: 2px solid #87006C;
-  width: 2000px;
-  margin-right: 1200px;
-  height: 200px;
+  width: 100vw;
 }
 
 .navbar-brand {
@@ -33,9 +42,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .navbar-ul {

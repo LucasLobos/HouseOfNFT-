@@ -2,7 +2,6 @@
 @import "variables";
 @import "../libs/bootstrap/scss/bootstrap";
 @import "header";
-@import "mediaQ";
 
 
 * {
@@ -26,8 +25,13 @@ body{
     background-color: #14152c;
 }
 
+.container-index{
+    margin: 0;
+}
    
-
+.main{
+    margin: 0;
+}
 .img1 {
 
     display: flex;
@@ -38,7 +42,7 @@ body{
 .astroImage {
     height: 450px;
     object-fit: cover;
-    width: 100%;
+    width: 100vw;
 
 }
 
@@ -75,7 +79,7 @@ body{
 
 .surrealImage {
     height: 750px;
-    width: 100%;
+    width: 100vw;
     object-fit: cover;
 
 }
@@ -134,3 +138,5 @@ body{
         0 0 2.5em 2em var(--glow-spread-color),
         inset 0 0 .5em .25em var(--glow-color);
 }
+
+@import "mediaQ";
