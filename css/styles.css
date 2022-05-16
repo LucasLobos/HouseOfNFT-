@@ -13304,6 +13304,205 @@ p {
   /* 20px*/
 }
 
+.main-token {
+  background-image: url(../img/image/prism4.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  margin: 0;
+}
+
+.circle-world {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.circle-world .titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px;
+}
+
+.circle-world .titles h1, .circle-world .titles .h1 {
+  font-size: 3rem;
+  color: ivory;
+}
+
+.circle-world .titles h1 span, .circle-world .titles .h1 span {
+  text-shadow: 0 0 5px #87006C, 0 0 15px #87006C, 0 0 30px #87006C;
+  font-size: 4rem;
+}
+
+.circle-world .titles h2, .circle-world .titles .h2 {
+  font-size: 2.5rem;
+  color: ivory;
+}
+
+.circle-world .circle-p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 100%;
+}
+
+.circle-world .circle-p .circle-d1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 100%;
+  width: 350px;
+  height: 350px;
+}
+
+.circle-world .circle-p .circle-d1 .circle-p1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  width: 250px;
+}
+
+.circle-world .circle-p .circle-d1 .circle-p1 p {
+  font-size: 2rem;
+  font-weight: bolder;
+  font-style: italic;
+  color: ivory;
+}
+
+.circle-world .circle-p .circle-d2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 100%;
+  width: 350px;
+  height: 350px;
+}
+
+.circle-world .circle-p .circle-d2 .circle-p2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  width: 250px;
+}
+
+.circle-world .circle-p .circle-d2 .circle-p2 p {
+  font-size: 2rem;
+  font-weight: bolder;
+  font-style: italic;
+  color: ivory;
+}
+
+.circle-world .circle-p .circle-d3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 100%;
+  width: 350px;
+  height: 350px;
+}
+
+.circle-world .circle-p .circle-d3 .circle-p3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  width: 250px;
+}
+
+.circle-world .circle-p .circle-d3 .circle-p3 p {
+  font-size: 2rem;
+  font-weight: bolder;
+  font-style: italic;
+  color: ivory;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: aliceblue;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 2rem;
+  /* 20px*/
+}
+
 body {
   background: #020024;
   background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(100%, #430979), to(#00d4ff));

@@ -1,3 +1,158 @@
-
 @import "header";
 @import "footer";
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+p {
+    font-size: 2rem;
+    /* 20px*/
+}
+
+.main-token {
+    background-image: url(../img/image/prism4.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    margin: 0;
+
+}
+
+.circle-world {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .titles {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+
+        h1 {
+            font-size: 3rem;
+            color: ivory;
+
+            span {
+                text-shadow: 0 0 5px $secondaryColor, 0 0 15px $secondaryColor, 0 0 30px $secondaryColor;
+                font-size: 4rem;
+
+            }
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            color: ivory;
+        }
+    }
+
+    .circle-p {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 100%;
+
+        .circle-d1 {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.3);
+
+            border-radius: 100%;
+            width: 350px;
+            height: 350px;
+
+            .circle-p1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100px;
+                width: 250px;
+
+                p {
+                    font-size: 2rem;
+                    font-weight: bolder;
+                    font-style: italic;
+                    color: ivory;
+                }
+            }
+
+
+
+        }
+
+        .circle-d2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.3);
+
+            border-radius: 100%;
+            width: 350px;
+            height: 350px;
+
+            .circle-p2 {
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100px;
+                width: 250px;
+
+                p {
+                    font-size: 2rem;
+                    font-weight: bolder;
+                    font-style: italic;
+                    color: ivory;
+                }
+            }
+
+
+        }
+
+        .circle-d3 {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            border: none;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 100%;
+            width: 350px;
+            height: 350px;
+
+            .circle-p3 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100px;
+                width: 250px;
+
+                p {
+                    font-size: 2rem;
+                    font-weight: bolder;
+                    font-style: italic;
+                    color: ivory;
+                }
+            }
+        }
+
+    }
+}
