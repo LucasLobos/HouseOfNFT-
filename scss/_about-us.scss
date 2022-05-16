@@ -1,0 +1,29 @@
+@import "header";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+p {
+    font-size: 2rem;
+    /* 20px*/
+}
+
+body{
+    background-color: #14152c;
+}
+
+.contenedor-about{
+    margin: 0;
+}
+
+@import "footer";

@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../scss/token-info.scss"
-    ],
-    "names": [],
-    "file": "token-info.css"
-}

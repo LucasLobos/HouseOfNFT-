@@ -1,7 +1,11 @@
-
 @import "variables";
 @import "../libs/bootstrap/scss/bootstrap";
 @import "header";
+@import "about-us";
+@import "contact";
+@import "product";
+@import "token-info";
+
 
 
 * {
@@ -21,17 +25,18 @@ p {
     /* 20px*/
 }
 
-body{
+body {
     background-color: #14152c;
 }
 
-.container-index{
+.container-index {
     margin: 0;
 }
-   
-.main{
+
+.main {
     margin: 0;
 }
+
 .img1 {
 
     display: flex;
@@ -109,34 +114,38 @@ body{
     justify-content: center;
     margin-bottom: 250px;
 
+    &::after {
+        pointer-events: none;
+        content: "";
+        position: absolute;
+        top: 120%;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: var(--glow-spread-color);
+        filter: blur(2em);
+        opacity: .7;
+        transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+    }
+
+    &:hover {
+        color: var(--btn-color);
+        background-color: var(--glow-color);
+        box-shadow: 0 0 1em .25em var(--glow-color),
+            0 0 4em 2em var(--glow-spread-color),
+            inset 0 0 .75em .25em var(--glow-color);
+    }
+
+    &:active {
+        box-shadow: 0 0 0.6em .25em var(--glow-color),
+            0 0 2.5em 2em var(--glow-spread-color),
+            inset 0 0 .5em .25em var(--glow-color);
+    }
+
+
+
 }
 
-.buttonV::after {
-    pointer-events: none;
-    content: "";
-    position: absolute;
-    top: 120%;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: var(--glow-spread-color);
-    filter: blur(2em);
-    opacity: .7;
-    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
-}
-
-.buttonV:hover {
-    color: var(--btn-color);
-    background-color: var(--glow-color);
-    box-shadow: 0 0 1em .25em var(--glow-color),
-        0 0 4em 2em var(--glow-spread-color),
-        inset 0 0 .75em .25em var(--glow-color);
-}
-
-.buttonV:active {
-    box-shadow: 0 0 0.6em .25em var(--glow-color),
-        0 0 2.5em 2em var(--glow-spread-color),
-        inset 0 0 .5em .25em var(--glow-color);
-}
 
 @import "mediaQ";
+@import "footer";
