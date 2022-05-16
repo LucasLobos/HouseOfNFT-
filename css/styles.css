@@ -12725,12 +12725,126 @@ p {
   /* 20px*/
 }
 
-body {
-  background-color: #14152c;
-}
-
 .contenedor-about {
   margin: 0;
+}
+
+.main-about {
+  background-image: url(../img/image/partner-hand.b9c9b2b.webp);
+  background-repeat: no-repeat;
+  background-position: center right;
+  height: 700px;
+  margin: 0;
+}
+
+.main-about .aling-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-about .aling-text .cont-h1 {
+  text-align: center;
+  max-width: 100%;
+  height: 6rem;
+  margin: 20px;
+}
+
+.main-about .aling-text .cont-h1 h1, .main-about .aling-text .cont-h1 .h1 {
+  font-size: 4.5rem;
+}
+
+.main-about .aling-text .cont-h1 span {
+  color: ivory;
+  text-shadow: 0 0 5px #87006C, 0 0 15px #87006C, 0 0 30px #87006C;
+}
+
+.main-about .aling-text .cont-p1 {
+  text-align: left;
+  margin: 20px;
+  margin-bottom: 45px;
+}
+
+.main-about .aling-text .cont-p1 h2, .main-about .aling-text .cont-p1 .h2 {
+  font-size: 3.2rem;
+}
+
+.main-about .aling-text .cont-p3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px;
+  margin-bottom: 45px;
+}
+
+.main-about .aling-text .cont-p3 .c3-p1 {
+  font-size: 4rem;
+  background-image: linear-gradient(120deg, #ec008c, #fc6767 100%);
+  background-repeat: no-repeat;
+  background-size: 21.5% 0.3em;
+  background-position: 0 100%;
+  -webkit-transition: background-size 0.25s ease-in;
+  transition: background-size 0.25s ease-in;
+}
+
+.main-about .aling-text .cont-p3 .c3-p1:hover {
+  background-size: 21.5% 88% !important;
+}
+
+.main-about .aling-text .cont-p3 .c3-p2 {
+  font-size: 4rem;
+  background-image: linear-gradient(120deg, #ec008c, #fc6767 100%);
+  background-repeat: no-repeat;
+  background-size: 38.2% 0.3em;
+  background-position: 0 100%;
+  -webkit-transition: background-size 0.25s ease-in;
+  transition: background-size 0.25s ease-in;
+}
+
+.main-about .aling-text .cont-p3 .c3-p2:hover {
+  background-size: 38.2% 88% !important;
+}
+
+.main-about .aling-text .cont-p3 .c3-p3 {
+  font-size: 4rem;
+  background-image: linear-gradient(120deg, #ec008c, #fc6767 100%);
+  background-repeat: no-repeat;
+  background-size: 26.5% 0.3em;
+  background-position: 0 100%;
+  -webkit-transition: background-size 0.25s ease-in;
+  transition: background-size 0.25s ease-in;
+}
+
+.main-about .aling-text .cont-p3 .c3-p3:hover {
+  background-size: 26.5% 88% !important;
+}
+
+.cont-p4 {
+  border: 2px solid white;
+  -webkit-box-shadow: inset 0 0 5px #ba1186, 0 0 10px #ba1186;
+          box-shadow: inset 0 0 5px #ba1186, 0 0 10px #ba1186;
+  border-radius: 60px;
+  max-width: 1000px;
+  padding: 20px;
+  text-align: center;
+}
+
+.cont-p4 .buttonC {
+  color: ivory;
+  font-size: 4rem;
+  text-shadow: 0 0 5px #ba1186, 0 0 15px #ba1186, 0 0 30px #ba1186;
+  margin: 0;
+  text-decoration: none;
 }
 
 .footer {
@@ -12849,6 +12963,126 @@ body {
 .footer img {
   height: 35px;
   width: 35px;
+}
+
+.main-contact {
+  background-image: url("../img/image/FONDO MENU ASTRAL TINDER.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  margin: 0;
+}
+
+.mainSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.mainSection .titleContact {
+  height: 100px;
+  width: 700px;
+  padding-top: 100px;
+}
+
+.mainSection .titleContact h1, .mainSection .titleContact .h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 70px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.mainSection .form-contact {
+  background-color: azure;
+  height: 680px;
+  width: 600px;
+  -webkit-box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.8);
+          box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.8);
+  border: 2px solid azure;
+  border-radius: 20px 20px;
+  margin-top: 10px;
+}
+
+.mainSection .form-contact header {
+  width: 100%;
+  background-color: #87006C;
+  overflow: hidden;
+  color: white;
+  border: 2px solid #87006C;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.mainSection .form-contact header span {
+  display: block;
+  text-align: center;
+  padding: 2rem;
+}
+
+.mainSection .form-contact header span h2, .mainSection .form-contact header span .h2 {
+  font-size: 40px;
+}
+
+.mainSection .form-contact .contact {
+  padding: .8rem;
+  overflow: hidden;
+  color: gray;
+}
+
+.mainSection .form-contact .contact textarea {
+  height: 150px;
+  width: 100%;
+  color: #000;
+  font-size: 25px;
+  border: 2px solid;
+  border-radius: 20px 20px;
+}
+
+.mainSection .form-contact .contact input {
+  color: #000;
+  font-size: 25px;
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.mainSection .form-contact .contact input:not([type='submit']) {
+  border: none;
+  border-bottom: 2px solid #87006C;
+  margin-bottom: 10px;
+  font-size: 20px;
+  outline: none;
+}
+
+.mainSection .form-contact .contact .btt-form {
+  border: 2px solid azure;
+  border-radius: 20px 20px;
+}
+
+.mainSection .form-contact .contact input[type='submit'] {
+  padding: 10px;
+  border: none;
+  background: #450c4a;
+  background: -webkit-gradient(linear, left top, right top, from(#450c4a), color-stop(8%, #73057c), color-stop(21%, #73057c), color-stop(49%, #240974), color-stop(71%, #18253b), color-stop(88%, #595879));
+  background: linear-gradient(90deg, #450c4a 0%, #73057c 8%, #73057c 21%, #240974 49%, #18253b 71%, #595879 88%);
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -13071,7 +13305,9 @@ p {
 }
 
 body {
-  background-color: #14152c;
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(100%, #430979), to(#00d4ff));
+  background: linear-gradient(90deg, #020024 0%, #430979 100%, #00d4ff 100%);
 }
 
 .container-index {

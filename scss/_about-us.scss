@@ -1,3 +1,4 @@
+@import "variables";
 @import "header";
 
 
@@ -18,12 +19,126 @@ p {
     /* 20px*/
 }
 
-body{
-    background-color: #14152c;
-}
-
-.contenedor-about{
+.contenedor-about {
     margin: 0;
 }
+
+.main-about {
+    background-image: url(../img/image/partner-hand.b9c9b2b.webp);
+    background-repeat: no-repeat;
+    background-position: center right;
+    height: 700px;
+    margin: 0;
+
+    .aling-text {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+
+
+        .cont-h1 {
+            text-align: center;
+            max-width: 100%;
+            height: 6rem;
+            margin: 20px;
+
+            h1 {
+                font-size: 4.5rem;
+            }
+
+            span {
+                color: ivory;
+                text-shadow: 0 0 5px $secondaryColor, 0 0 15px $secondaryColor, 0 0 30px $secondaryColor;
+                
+            }
+        }
+
+        .cont-p1 {
+            text-align: left;
+            margin: 20px;
+            margin-bottom: 45px;
+
+
+            h2 {
+                font-size: 3.2rem;
+
+            }
+
+        }
+
+
+        .cont-p3 {
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            margin-bottom: 45px;
+
+
+            .c3-p1 {
+
+                font-size: 4rem;
+                background-image: linear-gradient(120deg, #ec008c, #fc6767 100%);
+                background-repeat: no-repeat;
+                background-size: 21.5% 0.3em;
+                background-position: 0 100%;
+                transition: background-size 0.25s ease-in;
+
+                &:hover {
+                    background-size: 21.5% 88% !important;
+                }
+            }
+
+            .c3-p2 {
+                font-size: 4rem;
+
+                background-image: linear-gradient(120deg, #ec008c, #fc6767 100%);
+                background-repeat: no-repeat;
+                background-size: 38.2% 0.3em;
+                background-position: 0 100%;
+                transition: background-size 0.25s ease-in;
+
+                &:hover {
+                    background-size: 38.2% 88% !important;
+                }
+            }
+
+            .c3-p3 {
+                font-size: 4rem;
+
+                background-image: linear-gradient(120deg, #ec008c, #fc6767 100%);
+                background-repeat: no-repeat;
+                background-size: 26.5% 0.3em;
+                background-position: 0 100%;
+                transition: background-size 0.25s ease-in;
+
+                &:hover {
+                    background-size: 26.5% 88% !important;
+                }
+            }
+        }
+    }
+}
+
+.cont-p4 {
+    border: 2px solid white;
+    box-shadow: inset 0 0 5px #ba1186, 0 0 10px #ba1186;
+    border-radius: 60px;
+    max-width: 1000px;
+    padding: 20px;
+    text-align: center;
+
+    .buttonC {
+        color: ivory;
+        font-size: 4rem;
+        text-shadow: 0 0 5px #ba1186, 0 0 15px #ba1186, 0 0 30px#ba1186;
+        margin: 0;
+        text-decoration: none;
+    }
+
+}
+
+
+
 
 @import "footer";
