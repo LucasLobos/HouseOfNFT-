@@ -12729,10 +12729,16 @@ p {
   margin: 0;
 }
 
+.body-about {
+  background: #590e4a;
+  background: -webkit-gradient(linear, left top, right top, color-stop(4%, #590e4a), color-stop(15%, #690f57), color-stop(54%, #270a41), color-stop(77%, #240641), color-stop(98%, #07000e));
+  background: linear-gradient(90deg, #590e4a 4%, #690f57 15%, #270a41 54%, #240641 77%, #07000e 98%);
+}
+
 .main-about {
-  background-image: url(../img/image/partner-hand.b9c9b2b.webp);
-  background-repeat: no-repeat;
-  background-position: center right;
+  /* background-image: url(../img/image/partner-hand.b9c9b2b.webp);
+    background-repeat: no-repeat;
+    background-position: center right; */
   height: 700px;
   margin: 0;
 }
@@ -12829,22 +12835,11 @@ p {
   background-size: 26.5% 88% !important;
 }
 
-.cont-p4 {
-  border: 2px solid white;
-  -webkit-box-shadow: inset 0 0 5px #ba1186, 0 0 10px #ba1186;
-          box-shadow: inset 0 0 5px #ba1186, 0 0 10px #ba1186;
-  border-radius: 60px;
-  max-width: 1000px;
-  padding: 20px;
-  text-align: center;
-}
-
-.cont-p4 .buttonC {
-  color: ivory;
-  font-size: 4rem;
-  text-shadow: 0 0 5px #ba1186, 0 0 15px #ba1186, 0 0 30px #ba1186;
-  margin: 0;
-  text-decoration: none;
+.hand {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 200px;
 }
 
 .footer {
@@ -13312,7 +13307,7 @@ p {
   margin: 0;
 }
 
-.circle-world {
+.main-token .circle-world {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13324,7 +13319,7 @@ p {
       flex-wrap: wrap;
 }
 
-.circle-world .titles {
+.main-token .circle-world .titles {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13343,22 +13338,22 @@ p {
   margin: 30px;
 }
 
-.circle-world .titles h1, .circle-world .titles .h1 {
+.main-token .circle-world .titles h1, .main-token .circle-world .titles .h1 {
   font-size: 3rem;
   color: ivory;
 }
 
-.circle-world .titles h1 span, .circle-world .titles .h1 span {
+.main-token .circle-world .titles h1 span, .main-token .circle-world .titles .h1 span {
   text-shadow: 0 0 5px #87006C, 0 0 15px #87006C, 0 0 30px #87006C;
   font-size: 4rem;
 }
 
-.circle-world .titles h2, .circle-world .titles .h2 {
+.main-token .circle-world .titles h2, .main-token .circle-world .titles .h2 {
   font-size: 2.5rem;
   color: ivory;
 }
 
-.circle-world .circle-p {
+.main-token .circle-world .circle-p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13373,7 +13368,7 @@ p {
   max-width: 100%;
 }
 
-.circle-world .circle-p .circle-d1 {
+.main-token .circle-world .circle-p .circle-d1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13389,7 +13384,7 @@ p {
   height: 350px;
 }
 
-.circle-world .circle-p .circle-d1 .circle-p1 {
+.main-token .circle-world .circle-p .circle-d1 .circle-p1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13403,14 +13398,14 @@ p {
   width: 250px;
 }
 
-.circle-world .circle-p .circle-d1 .circle-p1 p {
+.main-token .circle-world .circle-p .circle-d1 .circle-p1 p {
   font-size: 2rem;
   font-weight: bolder;
   font-style: italic;
   color: ivory;
 }
 
-.circle-world .circle-p .circle-d2 {
+.main-token .circle-world .circle-p .circle-d2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13426,7 +13421,7 @@ p {
   height: 350px;
 }
 
-.circle-world .circle-p .circle-d2 .circle-p2 {
+.main-token .circle-world .circle-p .circle-d2 .circle-p2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13440,14 +13435,14 @@ p {
   width: 250px;
 }
 
-.circle-world .circle-p .circle-d2 .circle-p2 p {
+.main-token .circle-world .circle-p .circle-d2 .circle-p2 p {
   font-size: 2rem;
   font-weight: bolder;
   font-style: italic;
   color: ivory;
 }
 
-.circle-world .circle-p .circle-d3 {
+.main-token .circle-world .circle-p .circle-d3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13465,7 +13460,7 @@ p {
   height: 350px;
 }
 
-.circle-world .circle-p .circle-d3 .circle-p3 {
+.main-token .circle-world .circle-p .circle-d3 .circle-p3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13479,11 +13474,36 @@ p {
   width: 250px;
 }
 
-.circle-world .circle-p .circle-d3 .circle-p3 p {
+.main-token .circle-world .circle-p .circle-d3 .circle-p3 p {
   font-size: 2rem;
   font-weight: bolder;
   font-style: italic;
   color: ivory;
+}
+
+.main-token .circle-world .cont-p4 {
+  border: 2px solid white;
+  -webkit-box-shadow: inset 0 0 5px #ba1186, 0 0 10px #ba1186;
+          box-shadow: inset 0 0 5px #ba1186, 0 0 10px #ba1186;
+  border-radius: 60px;
+  max-width: 1000px;
+  margin-top: 50px;
+  margin-left: 450px;
+  padding: 20px;
+}
+
+.main-token .circle-world .cont-p4 .buttonC {
+  color: ivory;
+  font-size: 4rem;
+  text-shadow: 0 0 5px #ba1186, 0 0 15px #ba1186, 0 0 30px #ba1186;
+  margin: 0;
+  text-decoration: none;
+  padding-left: 15px;
+}
+
+.main-token .circle-world .cont-p4 .buttonC:hover {
+  color: #ba1186;
+  text-shadow: 0 0 5px lightblue, 0 0 15px lightblue, 0 0 30px lightblue;
 }
 
 * {
@@ -13503,7 +13523,7 @@ p {
   /* 20px*/
 }
 
-body {
+.body-index {
   background: #020024;
   background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(100%, #430979), to(#00d4ff));
   background: linear-gradient(90deg, #020024 0%, #430979 100%, #00d4ff 100%);
