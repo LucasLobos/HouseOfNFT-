@@ -24,15 +24,15 @@ p {
 }
 
 .body-about{
-    background: rgb(89,14,74);
-    background: linear-gradient(90deg, rgba(89,14,74,1) 4%, rgba(105,15,87,1) 15%, rgba(39,10,65,1) 54%, rgba(36,6,65,1) 77%, rgba(7,0,14,1) 98%);
-
+    background-image: url(../img/image/prism4.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .main-about {
     /* background-image: url(../img/image/partner-hand.b9c9b2b.webp);
     background-repeat: no-repeat;
     background-position: center right; */
-    height: 700px;
+    height: 690px;
     margin: 0;
 
     .aling-text {
@@ -50,12 +50,15 @@ p {
 
             h1 {
                 font-size: 4.5rem;
+                padding-left: 50px;
             }
 
             span {
                 color: ivory;
-                text-shadow: 0 0 5px $secondaryColor, 0 0 15px $secondaryColor, 0 0 30px $secondaryColor;
-                
+/*                 text-shadow: 0 0 5px $secondaryColor, 0 0 15px $secondaryColor, 0 0 30px $secondaryColor; 
+
+ */                
+                text-shadow: 0 0 5px black, 0 0 15px black, 0 0 30px black;
             }
         }
 

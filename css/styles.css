@@ -12730,16 +12730,16 @@ p {
 }
 
 .body-about {
-  background: #590e4a;
-  background: -webkit-gradient(linear, left top, right top, color-stop(4%, #590e4a), color-stop(15%, #690f57), color-stop(54%, #270a41), color-stop(77%, #240641), color-stop(98%, #07000e));
-  background: linear-gradient(90deg, #590e4a 4%, #690f57 15%, #270a41 54%, #240641 77%, #07000e 98%);
+  background-image: url(../img/image/prism4.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-about {
   /* background-image: url(../img/image/partner-hand.b9c9b2b.webp);
     background-repeat: no-repeat;
     background-position: center right; */
-  height: 700px;
+  height: 690px;
   margin: 0;
 }
 
@@ -12764,11 +12764,15 @@ p {
 
 .main-about .aling-text .cont-h1 h1, .main-about .aling-text .cont-h1 .h1 {
   font-size: 4.5rem;
+  padding-left: 50px;
 }
 
 .main-about .aling-text .cont-h1 span {
   color: ivory;
-  text-shadow: 0 0 5px #87006C, 0 0 15px #87006C, 0 0 30px #87006C;
+  /*                 text-shadow: 0 0 5px $secondaryColor, 0 0 15px $secondaryColor, 0 0 30px $secondaryColor; 
+
+ */
+  text-shadow: 0 0 5px black, 0 0 15px black, 0 0 30px black;
 }
 
 .main-about .aling-text .cont-p1 {
@@ -13181,6 +13185,178 @@ p {
   width: 35px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: aliceblue;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 2rem;
+  /* 20px*/
+}
+
+.container-product {
+  margin: 0;
+}
+
+.main-product {
+  background-image: url(../img/image/metaverse-coins-2022.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 705px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.titleP {
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.titleP h1, .titleP .h1 {
+  color: #643d88;
+  padding-top: 20px;
+  font-size: 5rem;
+}
+
+.card3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  width: 410px;
+  height: 450px;
+  background: #000;
+}
+
+.card .image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card .image img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: .5s;
+  transition: .5s;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card:hover .image img {
+  opacity: .5;
+  -webkit-transform: translateX(30%);
+          transform: translateX(30%);
+}
+
+.card .details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  /*100%*/
+  height: 100%;
+  background: ivory;
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: perspective(1000px) rotateY(-90deg);
+          transform: perspective(1000px) rotateY(-90deg);
+}
+
+.card:hover .details {
+  -webkit-transform: perspective(1000px) rotateY(0deg);
+          transform: perspective(1000px) rotateY(0deg);
+}
+
+.card .details .center {
+  padding: 20px;
+  text-align: center;
+  background: black;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.card .details .center h1, .card .details .center .h1 {
+  margin: 0;
+  padding: 0;
+  color: #ff3636;
+  line-height: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.card .details .center p {
+  margin: 10px 0;
+  padding: 0;
+  color: #fff;
+}
+
+.btt-form {
+  display: block;
+  border-radius: 20px 20px;
+  border: none;
+  color: #fff;
+  width: 300px;
+  height: 70px;
+  line-height: 30px;
+  text-align: center;
+  -webkit-transform: .5s;
+          transform: .5s;
+  background: #450c4a;
+  background: -webkit-gradient(linear, left top, right top, from(#450c4a), color-stop(8%, #73057c), color-stop(21%, #73057c), color-stop(49%, #240974), color-stop(71%, #18253b), color-stop(88%, #595879));
+  background: linear-gradient(90deg, #450c4a 0%, #73057c 8%, #73057c 21%, #240974 49%, #18253b 71%, #595879 88%);
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.btt-form:hover {
+  background: #ff3636;
+  color: #000;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .buttonV {
     height: 150px;
@@ -13300,10 +13476,10 @@ p {
 }
 
 .main-token {
-  background-image: url(../img/image/prism4.JPG);
+  background-image: url(../img/image/NFT_Brand_Trends_for_New_Year_2021.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 705px;
   margin: 0;
 }
 
@@ -13523,7 +13699,7 @@ p {
   /* 20px*/
 }
 
-.body-index {
+body {
   background: #020024;
   background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(100%, #430979), to(#00d4ff));
   background: linear-gradient(90deg, #020024 0%, #430979 100%, #00d4ff 100%);
@@ -13533,7 +13709,7 @@ p {
   margin: 0;
 }
 
-.main {
+main {
   margin: 0;
 }
 
