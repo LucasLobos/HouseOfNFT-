@@ -12540,14 +12540,6 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .buttonV {
-    height: 150px;
-    width: 90px;
-    margin-left: 30px;
-  }
-}
-
 .header {
   background-color: black;
   border-bottom: 2px solid #87006C;
@@ -12563,6 +12555,7 @@ fieldset:disabled .btn {
   padding-left: 0.5rem;
   -webkit-transition: all 2s;
   transition: all 2s;
+  cursor: pointer;
 }
 
 .navbar-brand:Hover {
@@ -12624,14 +12617,6 @@ fieldset:disabled .btn {
   color: #87006C;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .buttonV {
-    height: 150px;
-    width: 90px;
-    margin-left: 30px;
-  }
-}
-
 .header {
   background-color: black;
   border-bottom: 2px solid #87006C;
@@ -12647,6 +12632,7 @@ fieldset:disabled .btn {
   padding-left: 0.5rem;
   -webkit-transition: all 2s;
   transition: all 2s;
+  cursor: pointer;
 }
 
 .navbar-brand:Hover {
@@ -12863,14 +12849,6 @@ p {
   width: 35px;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .buttonV {
-    height: 150px;
-    width: 90px;
-    margin-left: 30px;
-  }
-}
-
 .header {
   background-color: black;
   border-bottom: 2px solid #87006C;
@@ -12886,6 +12864,7 @@ p {
   padding-left: 0.5rem;
   -webkit-transition: all 2s;
   transition: all 2s;
+  cursor: pointer;
 }
 
 .navbar-brand:Hover {
@@ -13084,14 +13063,6 @@ p {
   cursor: pointer;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .buttonV {
-    height: 150px;
-    width: 90px;
-    margin-left: 30px;
-  }
-}
-
 .header {
   background-color: black;
   border-bottom: 2px solid #87006C;
@@ -13107,6 +13078,7 @@ p {
   padding-left: 0.5rem;
   -webkit-transition: all 2s;
   transition: all 2s;
+  cursor: pointer;
 }
 
 .navbar-brand:Hover {
@@ -13357,14 +13329,6 @@ p {
   font-weight: bolder;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .buttonV {
-    height: 150px;
-    width: 90px;
-    margin-left: 30px;
-  }
-}
-
 .header {
   background-color: black;
   border-bottom: 2px solid #87006C;
@@ -13380,6 +13344,7 @@ p {
   padding-left: 0.5rem;
   -webkit-transition: all 2s;
   transition: all 2s;
+  cursor: pointer;
 }
 
 .navbar-brand:Hover {
@@ -13701,8 +13666,6 @@ p {
 
 body {
   background: #020024;
-  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(100%, #430979), to(#00d4ff));
-  background: linear-gradient(90deg, #020024 0%, #430979 100%, #00d4ff 100%);
 }
 
 .container-index {
@@ -13713,7 +13676,7 @@ main {
   margin: 0;
 }
 
-.img1 {
+main .img1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13725,14 +13688,14 @@ main {
       flex-wrap: wrap;
 }
 
-.astroImage {
+main .img1 .astroImage {
   height: 450px;
   -o-object-fit: cover;
      object-fit: cover;
   width: 100vw;
 }
 
-.img2 {
+main .img2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13744,51 +13707,32 @@ main {
       flex-wrap: wrap;
 }
 
-.img2 input {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  height: 100px;
-  width: 500px;
-  margin-top: 400px;
-}
-
-.womanImage {
+main .img2 .womanImage {
   width: 35%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.img3 {
+main .img2 a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  height: 120px;
+  width: 500px;
+  margin-top: 400px;
+  text-decoration: none;
 }
 
-.surrealImage {
-  height: 750px;
-  width: 100vw;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.buttonV {
+main .img2 .buttonV {
   --glow-color: rgb(217, 176, 255);
   --glow-spread-color: rgba(191, 123, 255, 0.781);
   --enhanced-glow-color: rgb(231, 206, 255);
   --btn-color: rgb(100, 61, 136);
   border: 0.25em solid var(--glow-color);
-  padding: 0em 3.9em;
   color: var(--glow-color);
-  font-size: 50px;
+  font-size: 60px;
   font-weight: bold;
   background-color: var(--btn-color);
   border-radius: 1em;
@@ -13806,10 +13750,11 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 250px;
+  padding-left: 90px;
+  padding-bottom: 30px;
 }
 
-.buttonV::after {
+main .img2 .buttonV::after {
   pointer-events: none;
   content: "";
   position: absolute;
@@ -13825,24 +13770,35 @@ main {
           transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
 }
 
-.buttonV:hover {
+main .img2 .buttonV:hover {
   color: var(--btn-color);
   background-color: var(--glow-color);
   -webkit-box-shadow: 0 0 1em 0.25em var(--glow-color), 0 0 4em 2em var(--glow-spread-color), inset 0 0 0.75em 0.25em var(--glow-color);
           box-shadow: 0 0 1em 0.25em var(--glow-color), 0 0 4em 2em var(--glow-spread-color), inset 0 0 0.75em 0.25em var(--glow-color);
 }
 
-.buttonV:active {
+main .img2 .buttonV:active {
   -webkit-box-shadow: 0 0 0.6em 0.25em var(--glow-color), 0 0 2.5em 2em var(--glow-spread-color), inset 0 0 0.5em 0.25em var(--glow-color);
           box-shadow: 0 0 0.6em 0.25em var(--glow-color), 0 0 2.5em 2em var(--glow-spread-color), inset 0 0 0.5em 0.25em var(--glow-color);
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .buttonV {
-    height: 150px;
-    width: 90px;
-    margin-left: 30px;
-  }
+main .img3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .img3 .surrealImage {
+  height: 750px;
+  width: 100vw;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .footer {
