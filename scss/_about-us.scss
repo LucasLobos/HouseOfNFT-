@@ -24,14 +24,17 @@ p {
 }
 
 .body-about{
-    background-image: url(../img/image/prism4.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+    background-color: black;
+ 
 }
 .main-about {
     /* background-image: url(../img/image/partner-hand.b9c9b2b.webp);
     background-repeat: no-repeat;
     background-position: center right; */
+    background-image: url(../img/image/prism4.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 690px;
     margin: 0;
 
@@ -88,12 +91,12 @@ p {
                 font-size: 4rem;
                 background-image: linear-gradient(120deg, #ec008c, #fc6767 100%);
                 background-repeat: no-repeat;
-                background-size: 21.5% 0.3em;
+                background-size: 22% 0.3em;
                 background-position: 0 100%;
                 transition: background-size 0.25s ease-in;
 
                 &:hover {
-                    background-size: 21.5% 88% !important;
+                    background-size: 22% 88% !important;
                 }
             }
 
@@ -102,12 +105,12 @@ p {
 
                 background-image: linear-gradient(120deg, #ec008c, #fc6767 100%);
                 background-repeat: no-repeat;
-                background-size: 38.2% 0.3em;
+                background-size: 39% 0.3em;
                 background-position: 0 100%;
                 transition: background-size 0.25s ease-in;
 
                 &:hover {
-                    background-size: 38.2% 88% !important;
+                    background-size: 39% 88% !important;
                 }
             }
 
@@ -116,12 +119,12 @@ p {
 
                 background-image: linear-gradient(120deg, #ec008c, #fc6767 100%);
                 background-repeat: no-repeat;
-                background-size: 26.5% 0.3em;
+                background-size: 27% 0.3em;
                 background-position: 0 100%;
                 transition: background-size 0.25s ease-in;
 
                 &:hover {
-                    background-size: 26.5% 88% !important;
+                    background-size: 27% 88% !important;
                 }
             }
         }

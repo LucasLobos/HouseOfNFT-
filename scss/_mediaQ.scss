@@ -2,10 +2,10 @@
 
 /*Small Cel*/
 @media(min-width:365px) and (max-width:767px) {
-
+/*Index*/
   .header{
     div{
-      padding-left:80px ;
+      padding-left:100px ;
     }
 
   }
@@ -83,7 +83,7 @@
 
 /*Tablet*/
 @media(min-width:768px) and (max-width:991px) {
-
+/*Index*/
   .main {
 
     .img1 {
@@ -117,11 +117,12 @@
     }
   }
 
+
 }
 
 /*Laptop*/
 @media(min-width:1024px) and (max-width:1440px) {
-
+/*Index*/
   .main {
 
     .img1 {
@@ -142,4 +143,7 @@
       }
     }
   }
+
+  /*About-us*/
+
 }
