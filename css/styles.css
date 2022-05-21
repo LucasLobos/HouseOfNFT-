@@ -150,7 +150,7 @@
   color: #87006C;
 }
 
-/*Small Cel*/
+/*Cel*/
 @media (min-width: 365px) and (max-width: 767px) {
   /*Index*/
   .header div {
@@ -278,6 +278,50 @@
     height: 50px;
     font-size: 15px;
   }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+  .main-token {
+    height: 1050px;
+    background-position-x: center;
+    background-position-y: center;
+  }
+  .main-token .circle-world .circle-p .circle-d1 {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+  .main-token .circle-world .circle-p .circle-d1 .circle-p1 p {
+    font-size: 1.5rem;
+  }
+  .main-token .circle-world .circle-p .circle-d2 {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+  .main-token .circle-world .circle-p .circle-d2 .circle-p2 p {
+    font-size: 1.5rem;
+  }
+  .main-token .circle-world .circle-p .circle-d3 {
+    width: 240px;
+    height: 240px;
+  }
+  .main-token .circle-world .circle-p .circle-d3 .circle-p3 p {
+    font-size: 1.5rem;
+  }
+  .main-token .circle-world .titles h1 {
+    font-size: 1.8rem;
+  }
+  .main-token .circle-world .titles h1 span {
+    font-size: 2rem;
+  }
+  .main-token .circle-world .cont-p4 {
+    margin-right: 5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-token .circle-world .cont-p4 .buttonC {
+    font-size: 1.8rem;
+  }
 }
 
 /*-----------------------------------------------------TABLETS-----------------------------------------------------*/
@@ -389,6 +433,33 @@
     height: 50px;
     font-size: 15px;
   }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+  .main-token {
+    height: 900px;
+    background-position-x: center;
+    background-position-y: center;
+  }
+  .main-token .circle-world .circle-p .circle-d1 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d2 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d3 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .titles h1 {
+    font-size: 2.8rem;
+  }
+  .main-token .circle-world .cont-p4 {
+    margin-left: 20px;
+  }
+  .main-token .circle-world .cont-p4 .buttonC {
+    font-size: 2.5rem;
+  }
 }
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -465,6 +536,31 @@
     width: 150px;
     height: 50px;
     font-size: 15px;
+  }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+  .main-token {
+    background-position-x: center;
+  }
+  .main-token .circle-world .circle-p .circle-d1 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d2 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d3 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .titles h1 {
+    font-size: 2.8rem;
+  }
+  .main-token .circle-world .cont-p4 {
+    margin-left: 20px;
+  }
+  .main-token .circle-world .cont-p4 .buttonC {
+    font-size: 3rem;
   }
 }
 
@@ -620,7 +716,7 @@
   color: #87006C;
 }
 
-/*Small Cel*/
+/*Cel*/
 @media (min-width: 365px) and (max-width: 767px) {
   /*Index*/
   .header div {
@@ -748,6 +844,50 @@
     height: 50px;
     font-size: 15px;
   }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+  .main-token {
+    height: 1050px;
+    background-position-x: center;
+    background-position-y: center;
+  }
+  .main-token .circle-world .circle-p .circle-d1 {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+  .main-token .circle-world .circle-p .circle-d1 .circle-p1 p {
+    font-size: 1.5rem;
+  }
+  .main-token .circle-world .circle-p .circle-d2 {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+  .main-token .circle-world .circle-p .circle-d2 .circle-p2 p {
+    font-size: 1.5rem;
+  }
+  .main-token .circle-world .circle-p .circle-d3 {
+    width: 240px;
+    height: 240px;
+  }
+  .main-token .circle-world .circle-p .circle-d3 .circle-p3 p {
+    font-size: 1.5rem;
+  }
+  .main-token .circle-world .titles h1 {
+    font-size: 1.8rem;
+  }
+  .main-token .circle-world .titles h1 span {
+    font-size: 2rem;
+  }
+  .main-token .circle-world .cont-p4 {
+    margin-right: 5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-token .circle-world .cont-p4 .buttonC {
+    font-size: 1.8rem;
+  }
 }
 
 /*-----------------------------------------------------TABLETS-----------------------------------------------------*/
@@ -859,6 +999,33 @@
     height: 50px;
     font-size: 15px;
   }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+  .main-token {
+    height: 900px;
+    background-position-x: center;
+    background-position-y: center;
+  }
+  .main-token .circle-world .circle-p .circle-d1 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d2 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d3 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .titles h1 {
+    font-size: 2.8rem;
+  }
+  .main-token .circle-world .cont-p4 {
+    margin-left: 20px;
+  }
+  .main-token .circle-world .cont-p4 .buttonC {
+    font-size: 2.5rem;
+  }
 }
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -935,6 +1102,31 @@
     width: 150px;
     height: 50px;
     font-size: 15px;
+  }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+  .main-token {
+    background-position-x: center;
+  }
+  .main-token .circle-world .circle-p .circle-d1 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d2 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d3 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .titles h1 {
+    font-size: 2.8rem;
+  }
+  .main-token .circle-world .cont-p4 {
+    margin-left: 20px;
+  }
+  .main-token .circle-world .cont-p4 .buttonC {
+    font-size: 3rem;
   }
 }
 
@@ -1246,7 +1438,7 @@ p {
   color: #87006C;
 }
 
-/*Small Cel*/
+/*Cel*/
 @media (min-width: 365px) and (max-width: 767px) {
   /*Index*/
   .header div {
@@ -1374,6 +1566,50 @@ p {
     height: 50px;
     font-size: 15px;
   }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+  .main-token {
+    height: 1050px;
+    background-position-x: center;
+    background-position-y: center;
+  }
+  .main-token .circle-world .circle-p .circle-d1 {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+  .main-token .circle-world .circle-p .circle-d1 .circle-p1 p {
+    font-size: 1.5rem;
+  }
+  .main-token .circle-world .circle-p .circle-d2 {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+  .main-token .circle-world .circle-p .circle-d2 .circle-p2 p {
+    font-size: 1.5rem;
+  }
+  .main-token .circle-world .circle-p .circle-d3 {
+    width: 240px;
+    height: 240px;
+  }
+  .main-token .circle-world .circle-p .circle-d3 .circle-p3 p {
+    font-size: 1.5rem;
+  }
+  .main-token .circle-world .titles h1 {
+    font-size: 1.8rem;
+  }
+  .main-token .circle-world .titles h1 span {
+    font-size: 2rem;
+  }
+  .main-token .circle-world .cont-p4 {
+    margin-right: 5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-token .circle-world .cont-p4 .buttonC {
+    font-size: 1.8rem;
+  }
 }
 
 /*-----------------------------------------------------TABLETS-----------------------------------------------------*/
@@ -1485,6 +1721,33 @@ p {
     height: 50px;
     font-size: 15px;
   }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+  .main-token {
+    height: 900px;
+    background-position-x: center;
+    background-position-y: center;
+  }
+  .main-token .circle-world .circle-p .circle-d1 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d2 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d3 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .titles h1 {
+    font-size: 2.8rem;
+  }
+  .main-token .circle-world .cont-p4 {
+    margin-left: 20px;
+  }
+  .main-token .circle-world .cont-p4 .buttonC {
+    font-size: 2.5rem;
+  }
 }
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -1561,6 +1824,31 @@ p {
     width: 150px;
     height: 50px;
     font-size: 15px;
+  }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+  .main-token {
+    background-position-x: center;
+  }
+  .main-token .circle-world .circle-p .circle-d1 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d2 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d3 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .titles h1 {
+    font-size: 2.8rem;
+  }
+  .main-token .circle-world .cont-p4 {
+    margin-left: 20px;
+  }
+  .main-token .circle-world .cont-p4 .buttonC {
+    font-size: 3rem;
   }
 }
 
@@ -1853,7 +2141,7 @@ p {
   color: #87006C;
 }
 
-/*Small Cel*/
+/*Cel*/
 @media (min-width: 365px) and (max-width: 767px) {
   /*Index*/
   .header div {
@@ -1981,6 +2269,50 @@ p {
     height: 50px;
     font-size: 15px;
   }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+  .main-token {
+    height: 1050px;
+    background-position-x: center;
+    background-position-y: center;
+  }
+  .main-token .circle-world .circle-p .circle-d1 {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+  .main-token .circle-world .circle-p .circle-d1 .circle-p1 p {
+    font-size: 1.5rem;
+  }
+  .main-token .circle-world .circle-p .circle-d2 {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+  .main-token .circle-world .circle-p .circle-d2 .circle-p2 p {
+    font-size: 1.5rem;
+  }
+  .main-token .circle-world .circle-p .circle-d3 {
+    width: 240px;
+    height: 240px;
+  }
+  .main-token .circle-world .circle-p .circle-d3 .circle-p3 p {
+    font-size: 1.5rem;
+  }
+  .main-token .circle-world .titles h1 {
+    font-size: 1.8rem;
+  }
+  .main-token .circle-world .titles h1 span {
+    font-size: 2rem;
+  }
+  .main-token .circle-world .cont-p4 {
+    margin-right: 5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-token .circle-world .cont-p4 .buttonC {
+    font-size: 1.8rem;
+  }
 }
 
 /*-----------------------------------------------------TABLETS-----------------------------------------------------*/
@@ -2092,6 +2424,33 @@ p {
     height: 50px;
     font-size: 15px;
   }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+  .main-token {
+    height: 900px;
+    background-position-x: center;
+    background-position-y: center;
+  }
+  .main-token .circle-world .circle-p .circle-d1 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d2 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d3 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .titles h1 {
+    font-size: 2.8rem;
+  }
+  .main-token .circle-world .cont-p4 {
+    margin-left: 20px;
+  }
+  .main-token .circle-world .cont-p4 .buttonC {
+    font-size: 2.5rem;
+  }
 }
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -2168,6 +2527,31 @@ p {
     width: 150px;
     height: 50px;
     font-size: 15px;
+  }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+  .main-token {
+    background-position-x: center;
+  }
+  .main-token .circle-world .circle-p .circle-d1 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d2 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d3 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .titles h1 {
+    font-size: 2.8rem;
+  }
+  .main-token .circle-world .cont-p4 {
+    margin-left: 20px;
+  }
+  .main-token .circle-world .cont-p4 .buttonC {
+    font-size: 3rem;
   }
 }
 
@@ -2512,7 +2896,7 @@ p {
   color: #87006C;
 }
 
-/*Small Cel*/
+/*Cel*/
 @media (min-width: 365px) and (max-width: 767px) {
   /*Index*/
   .header div {
@@ -2640,6 +3024,50 @@ p {
     height: 50px;
     font-size: 15px;
   }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+  .main-token {
+    height: 1050px;
+    background-position-x: center;
+    background-position-y: center;
+  }
+  .main-token .circle-world .circle-p .circle-d1 {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+  .main-token .circle-world .circle-p .circle-d1 .circle-p1 p {
+    font-size: 1.5rem;
+  }
+  .main-token .circle-world .circle-p .circle-d2 {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+  .main-token .circle-world .circle-p .circle-d2 .circle-p2 p {
+    font-size: 1.5rem;
+  }
+  .main-token .circle-world .circle-p .circle-d3 {
+    width: 240px;
+    height: 240px;
+  }
+  .main-token .circle-world .circle-p .circle-d3 .circle-p3 p {
+    font-size: 1.5rem;
+  }
+  .main-token .circle-world .titles h1 {
+    font-size: 1.8rem;
+  }
+  .main-token .circle-world .titles h1 span {
+    font-size: 2rem;
+  }
+  .main-token .circle-world .cont-p4 {
+    margin-right: 5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-token .circle-world .cont-p4 .buttonC {
+    font-size: 1.8rem;
+  }
 }
 
 /*-----------------------------------------------------TABLETS-----------------------------------------------------*/
@@ -2751,6 +3179,33 @@ p {
     height: 50px;
     font-size: 15px;
   }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+  .main-token {
+    height: 900px;
+    background-position-x: center;
+    background-position-y: center;
+  }
+  .main-token .circle-world .circle-p .circle-d1 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d2 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d3 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .titles h1 {
+    font-size: 2.8rem;
+  }
+  .main-token .circle-world .cont-p4 {
+    margin-left: 20px;
+  }
+  .main-token .circle-world .cont-p4 .buttonC {
+    font-size: 2.5rem;
+  }
 }
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -2828,6 +3283,31 @@ p {
     height: 50px;
     font-size: 15px;
   }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+  .main-token {
+    background-position-x: center;
+  }
+  .main-token .circle-world .circle-p .circle-d1 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d2 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d3 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .titles h1 {
+    font-size: 2.8rem;
+  }
+  .main-token .circle-world .cont-p4 {
+    margin-left: 20px;
+  }
+  .main-token .circle-world .cont-p4 .buttonC {
+    font-size: 3rem;
+  }
 }
 
 .footer {
@@ -2876,6 +3356,9 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -2930,7 +3413,7 @@ p {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  max-width: 100%;
+  width: 100%;
 }
 
 .main-token .circle-world .circle-p .circle-d1 {
@@ -2944,6 +3427,7 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: rgba(0, 0, 0, 0.3);
+  padding-left: 30px;
   border-radius: 100%;
   width: 350px;
   height: 350px;
@@ -2981,6 +3465,7 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: rgba(0, 0, 0, 0.3);
+  padding-left: 30px;
   border-radius: 100%;
   width: 350px;
   height: 350px;
@@ -3020,6 +3505,7 @@ p {
   position: relative;
   border: none;
   background-color: rgba(0, 0, 0, 0.3);
+  padding-left: 30px;
   border-radius: 100%;
   width: 350px;
   height: 350px;
@@ -3053,7 +3539,6 @@ p {
   border-radius: 60px;
   max-width: 1000px;
   margin-top: 50px;
-  margin-left: 450px;
   padding: 20px;
 }
 
@@ -3090,14 +3575,6 @@ p {
 
 body {
   background: black;
-}
-
-.container-fluid {
-  margin: 0;
-}
-
-main {
-  margin: 0;
 }
 
 main .img1 {
@@ -3233,7 +3710,7 @@ main .img3 .surrealImage {
      object-fit: cover;
 }
 
-/*Small Cel*/
+/*Cel*/
 @media (min-width: 365px) and (max-width: 767px) {
   /*Index*/
   .header div {
@@ -3361,6 +3838,50 @@ main .img3 .surrealImage {
     height: 50px;
     font-size: 15px;
   }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+  .main-token {
+    height: 1050px;
+    background-position-x: center;
+    background-position-y: center;
+  }
+  .main-token .circle-world .circle-p .circle-d1 {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+  .main-token .circle-world .circle-p .circle-d1 .circle-p1 p {
+    font-size: 1.5rem;
+  }
+  .main-token .circle-world .circle-p .circle-d2 {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+  .main-token .circle-world .circle-p .circle-d2 .circle-p2 p {
+    font-size: 1.5rem;
+  }
+  .main-token .circle-world .circle-p .circle-d3 {
+    width: 240px;
+    height: 240px;
+  }
+  .main-token .circle-world .circle-p .circle-d3 .circle-p3 p {
+    font-size: 1.5rem;
+  }
+  .main-token .circle-world .titles h1 {
+    font-size: 1.8rem;
+  }
+  .main-token .circle-world .titles h1 span {
+    font-size: 2rem;
+  }
+  .main-token .circle-world .cont-p4 {
+    margin-right: 5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-token .circle-world .cont-p4 .buttonC {
+    font-size: 1.8rem;
+  }
 }
 
 /*-----------------------------------------------------TABLETS-----------------------------------------------------*/
@@ -3472,6 +3993,33 @@ main .img3 .surrealImage {
     height: 50px;
     font-size: 15px;
   }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+  .main-token {
+    height: 900px;
+    background-position-x: center;
+    background-position-y: center;
+  }
+  .main-token .circle-world .circle-p .circle-d1 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d2 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d3 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .titles h1 {
+    font-size: 2.8rem;
+  }
+  .main-token .circle-world .cont-p4 {
+    margin-left: 20px;
+  }
+  .main-token .circle-world .cont-p4 .buttonC {
+    font-size: 2.5rem;
+  }
 }
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -3548,6 +4096,31 @@ main .img3 .surrealImage {
     width: 150px;
     height: 50px;
     font-size: 15px;
+  }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+  .main-token {
+    background-position-x: center;
+  }
+  .main-token .circle-world .circle-p .circle-d1 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d2 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .circle-p .circle-d3 {
+    width: 300px;
+    height: 300px;
+  }
+  .main-token .circle-world .titles h1 {
+    font-size: 2.8rem;
+  }
+  .main-token .circle-world .cont-p4 {
+    margin-left: 20px;
+  }
+  .main-token .circle-world .cont-p4 .buttonC {
+    font-size: 3rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,6 @@
 @import "variables";
 
-/*Small Cel*/
+/*Cel*/
 @media(min-width:365px) and (max-width:767px) {
 
   /*Index*/
@@ -139,50 +139,115 @@
   }
 
 
-/*-----------------------------------------------------Product-----------------------------------------------------*/
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
 
-.main-product {
-  height: 1200px;
+  .main-product {
+    height: 1200px;
 
-  .titleP {
-    padding: 20px;
-    h1{
-      font-weight: 700;
-      padding-left: 10px;
-      font-size: 4rem;
+    .titleP {
+      padding: 20px;
 
-    }
-  }
+      h1 {
+        font-weight: 700;
+        padding-left: 10px;
+        font-size: 4rem;
 
-  .card3 {
-    gap: 50px;
-
-    .card {
-      width: 210px;
-      height: 250px;
-
-      .details {
-        .center {
-          h1 {
-            font-size: 20px;
-          }
-
-          p {
-            font-size: 17px;
-          }
-
-          .btt-form {
-            width: 150px;
-            height: 50px;
-            font-size: 15px;
-
-          }
-        }
       }
     }
 
+    .card3 {
+      gap: 50px;
+
+      .card {
+        width: 210px;
+        height: 250px;
+
+        .details {
+          .center {
+            h1 {
+              font-size: 20px;
+            }
+
+            p {
+              font-size: 17px;
+            }
+
+            .btt-form {
+              width: 150px;
+              height: 50px;
+              font-size: 15px;
+
+            }
+          }
+        }
+      }
+
+    }
   }
-}
+      /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+
+      .main-token {
+        height: 1050px;
+        background-position-x: center;
+        background-position-y: center;
+  
+        .circle-world {
+          
+          .circle-p{
+            .circle-d1{
+              width: 240px;
+              height: 240px;
+              margin-bottom: 10px;
+              .circle-p1{
+                p{
+                  font-size: 1.5rem;
+                }
+                
+              }
+            }
+            .circle-d2{
+              width: 240px;
+              height: 240px;
+              margin-bottom: 10px;
+              .circle-p2{
+                p{
+                  font-size: 1.5rem;
+                }
+                
+              }
+            }
+            .circle-d3{
+              width: 240px;
+              height: 240px;
+              .circle-p3{
+                p{
+                  font-size: 1.5rem;
+                }
+                
+              }
+            }
+    
+          }
+          .titles {
+            h1 {
+              font-size: 1.8rem;
+              span{
+                font-size: 2rem;
+              }
+            }
+          }
+          .cont-p4{   
+            margin-right: 5px;    
+            align-items: center;    
+            .buttonC{
+              font-size: 1.8rem;
+            }
+          }
+        }
+    
+    
+    
+      }
 }
 
 
@@ -345,6 +410,47 @@
 
     }
   }
+    /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+
+    .main-token {
+      height: 900px;
+      background-position-x: center;
+      background-position-y: center;
+
+      .circle-world {
+        
+        .circle-p{
+          .circle-d1{
+            width: 300px;
+            height: 300px;
+          }
+          .circle-d2{
+            width: 300px;
+            height: 300px;
+          }
+          .circle-d3{
+            width: 300px;
+            height: 300px;
+          }
+  
+        }
+        .titles {
+          h1 {
+            font-size: 2.8rem;
+          }
+        }
+        .cont-p4{
+          margin-left: 20px;
+          
+          .buttonC{
+            font-size: 2.5rem;
+          }
+        }
+      }
+  
+  
+  
+    }
 
 }
 
@@ -429,7 +535,8 @@
       }
     }
   }
-    /*-----------------------------------------------------Product-----------------------------------------------------*/
+
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
 
   .main-product {
     height: 600px;
@@ -463,5 +570,45 @@
 
     }
   }
+
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+
+  .main-token {
+    background-position-x: center;
+    .circle-world {
+      
+      .circle-p{
+        .circle-d1{
+          width: 300px;
+          height: 300px;
+        }
+        .circle-d2{
+          width: 300px;
+          height: 300px;
+        }
+        .circle-d3{
+          width: 300px;
+          height: 300px;
+        }
+
+      }
+      .titles {
+        h1 {
+          font-size: 2.8rem;
+        }
+      }
+      .cont-p4{
+        margin-left: 20px;
+        
+        .buttonC{
+          font-size: 3rem;
+        }
+      }
+    }
+
+
+
+  }
+
 
 }
