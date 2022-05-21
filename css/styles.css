@@ -248,45 +248,41 @@
   section .hand .img-fluid {
     height: 120px;
   }
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+  .main-product {
+    height: 1200px;
+  }
+  .main-product .titleP {
+    padding: 20px;
+  }
+  .main-product .titleP h1 {
+    font-weight: 700;
+    padding-left: 10px;
+    font-size: 4rem;
+  }
+  .main-product .card3 {
+    gap: 50px;
+  }
+  .main-product .card3 .card {
+    width: 210px;
+    height: 250px;
+  }
+  .main-product .card3 .card .details .center h1 {
+    font-size: 20px;
+  }
+  .main-product .card3 .card .details .center p {
+    font-size: 17px;
+  }
+  .main-product .card3 .card .details .center .btt-form {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+  }
 }
 
-/*Big cel*/
-/* @media(min-width:575px) and (max-width:767px) {
-  .main {
-    .im1 {
-      .astroImage {
-        height: 250px;
-      }
-    }
-
-    .img2 {
-      a {
-        height: 90px;
-        width: 400px;
-        margin-top: 120px;
-      }
-
-      .buttonV {
-        font-size: 40px;
-      }
-
-      .womanImage2 {
-        display: none;
-      }
-    }
-
-    .img3 {
-
-      .surrealImage {
-        display: none;
-      }
-    }
-  }
-
-} */
-/*Tablet*/
+/*-----------------------------------------------------TABLETS-----------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 991px) {
-  /*Index*/
+  /*-----------------------------------------------------INDEX-----------------------------------------------------*/
   .main .img1 .astroImage {
     margin-bottom: 20px;
   }
@@ -371,9 +367,31 @@
   section .hand .img-fluid {
     height: 280px;
   }
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+  .main-product {
+    height: 600px;
+  }
+  .main-product .card3 {
+    gap: 50px;
+  }
+  .main-product .card3 .card {
+    width: 210px;
+    height: 250px;
+  }
+  .main-product .card3 .card .details .center h1 {
+    font-size: 20px;
+  }
+  .main-product .card3 .card .details .center p {
+    font-size: 17px;
+  }
+  .main-product .card3 .card .details .center .btt-form {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+  }
 }
 
-/*Laptop*/
+/*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
 @media (min-width: 1024px) and (max-width: 1440px) {
   /*Index*/
   .main .img1 .astroImage {
@@ -425,6 +443,28 @@
   }
   section .hand .img-fluid {
     height: 500px;
+  }
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+  .main-product {
+    height: 600px;
+  }
+  .main-product .card3 {
+    gap: 50px;
+  }
+  .main-product .card3 .card {
+    width: 210px;
+    height: 250px;
+  }
+  .main-product .card3 .card .details .center h1 {
+    font-size: 20px;
+  }
+  .main-product .card3 .card .details .center p {
+    font-size: 17px;
+  }
+  .main-product .card3 .card .details .center .btt-form {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
   }
 }
 
@@ -678,45 +718,41 @@
   section .hand .img-fluid {
     height: 120px;
   }
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+  .main-product {
+    height: 1200px;
+  }
+  .main-product .titleP {
+    padding: 20px;
+  }
+  .main-product .titleP h1 {
+    font-weight: 700;
+    padding-left: 10px;
+    font-size: 4rem;
+  }
+  .main-product .card3 {
+    gap: 50px;
+  }
+  .main-product .card3 .card {
+    width: 210px;
+    height: 250px;
+  }
+  .main-product .card3 .card .details .center h1 {
+    font-size: 20px;
+  }
+  .main-product .card3 .card .details .center p {
+    font-size: 17px;
+  }
+  .main-product .card3 .card .details .center .btt-form {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+  }
 }
 
-/*Big cel*/
-/* @media(min-width:575px) and (max-width:767px) {
-  .main {
-    .im1 {
-      .astroImage {
-        height: 250px;
-      }
-    }
-
-    .img2 {
-      a {
-        height: 90px;
-        width: 400px;
-        margin-top: 120px;
-      }
-
-      .buttonV {
-        font-size: 40px;
-      }
-
-      .womanImage2 {
-        display: none;
-      }
-    }
-
-    .img3 {
-
-      .surrealImage {
-        display: none;
-      }
-    }
-  }
-
-} */
-/*Tablet*/
+/*-----------------------------------------------------TABLETS-----------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 991px) {
-  /*Index*/
+  /*-----------------------------------------------------INDEX-----------------------------------------------------*/
   .main .img1 .astroImage {
     margin-bottom: 20px;
   }
@@ -801,9 +837,31 @@
   section .hand .img-fluid {
     height: 280px;
   }
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+  .main-product {
+    height: 600px;
+  }
+  .main-product .card3 {
+    gap: 50px;
+  }
+  .main-product .card3 .card {
+    width: 210px;
+    height: 250px;
+  }
+  .main-product .card3 .card .details .center h1 {
+    font-size: 20px;
+  }
+  .main-product .card3 .card .details .center p {
+    font-size: 17px;
+  }
+  .main-product .card3 .card .details .center .btt-form {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+  }
 }
 
-/*Laptop*/
+/*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
 @media (min-width: 1024px) and (max-width: 1440px) {
   /*Index*/
   .main .img1 .astroImage {
@@ -855,6 +913,28 @@
   }
   section .hand .img-fluid {
     height: 500px;
+  }
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+  .main-product {
+    height: 600px;
+  }
+  .main-product .card3 {
+    gap: 50px;
+  }
+  .main-product .card3 .card {
+    width: 210px;
+    height: 250px;
+  }
+  .main-product .card3 .card .details .center h1 {
+    font-size: 20px;
+  }
+  .main-product .card3 .card .details .center p {
+    font-size: 17px;
+  }
+  .main-product .card3 .card .details .center .btt-form {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
   }
 }
 
@@ -1002,7 +1082,7 @@ p {
   display: block;
   position: absolute;
   padding-top: 1rem;
-  bottom: 0;
+  bottom: 100;
   width: 100%;
   height: 7.5rem;
   background: black;
@@ -1264,45 +1344,41 @@ p {
   section .hand .img-fluid {
     height: 120px;
   }
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+  .main-product {
+    height: 1200px;
+  }
+  .main-product .titleP {
+    padding: 20px;
+  }
+  .main-product .titleP h1 {
+    font-weight: 700;
+    padding-left: 10px;
+    font-size: 4rem;
+  }
+  .main-product .card3 {
+    gap: 50px;
+  }
+  .main-product .card3 .card {
+    width: 210px;
+    height: 250px;
+  }
+  .main-product .card3 .card .details .center h1 {
+    font-size: 20px;
+  }
+  .main-product .card3 .card .details .center p {
+    font-size: 17px;
+  }
+  .main-product .card3 .card .details .center .btt-form {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+  }
 }
 
-/*Big cel*/
-/* @media(min-width:575px) and (max-width:767px) {
-  .main {
-    .im1 {
-      .astroImage {
-        height: 250px;
-      }
-    }
-
-    .img2 {
-      a {
-        height: 90px;
-        width: 400px;
-        margin-top: 120px;
-      }
-
-      .buttonV {
-        font-size: 40px;
-      }
-
-      .womanImage2 {
-        display: none;
-      }
-    }
-
-    .img3 {
-
-      .surrealImage {
-        display: none;
-      }
-    }
-  }
-
-} */
-/*Tablet*/
+/*-----------------------------------------------------TABLETS-----------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 991px) {
-  /*Index*/
+  /*-----------------------------------------------------INDEX-----------------------------------------------------*/
   .main .img1 .astroImage {
     margin-bottom: 20px;
   }
@@ -1387,9 +1463,31 @@ p {
   section .hand .img-fluid {
     height: 280px;
   }
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+  .main-product {
+    height: 600px;
+  }
+  .main-product .card3 {
+    gap: 50px;
+  }
+  .main-product .card3 .card {
+    width: 210px;
+    height: 250px;
+  }
+  .main-product .card3 .card .details .center h1 {
+    font-size: 20px;
+  }
+  .main-product .card3 .card .details .center p {
+    font-size: 17px;
+  }
+  .main-product .card3 .card .details .center .btt-form {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+  }
 }
 
-/*Laptop*/
+/*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
 @media (min-width: 1024px) and (max-width: 1440px) {
   /*Index*/
   .main .img1 .astroImage {
@@ -1442,6 +1540,28 @@ p {
   section .hand .img-fluid {
     height: 500px;
   }
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+  .main-product {
+    height: 600px;
+  }
+  .main-product .card3 {
+    gap: 50px;
+  }
+  .main-product .card3 .card {
+    width: 210px;
+    height: 250px;
+  }
+  .main-product .card3 .card .details .center h1 {
+    font-size: 20px;
+  }
+  .main-product .card3 .card .details .center p {
+    font-size: 17px;
+  }
+  .main-product .card3 .card .details .center .btt-form {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+  }
 }
 
 .footer {
@@ -1449,7 +1569,7 @@ p {
   display: block;
   position: absolute;
   padding-top: 1rem;
-  bottom: 0;
+  bottom: 100;
   width: 100%;
   height: 7.5rem;
   background: black;
@@ -1831,45 +1951,41 @@ p {
   section .hand .img-fluid {
     height: 120px;
   }
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+  .main-product {
+    height: 1200px;
+  }
+  .main-product .titleP {
+    padding: 20px;
+  }
+  .main-product .titleP h1 {
+    font-weight: 700;
+    padding-left: 10px;
+    font-size: 4rem;
+  }
+  .main-product .card3 {
+    gap: 50px;
+  }
+  .main-product .card3 .card {
+    width: 210px;
+    height: 250px;
+  }
+  .main-product .card3 .card .details .center h1 {
+    font-size: 20px;
+  }
+  .main-product .card3 .card .details .center p {
+    font-size: 17px;
+  }
+  .main-product .card3 .card .details .center .btt-form {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+  }
 }
 
-/*Big cel*/
-/* @media(min-width:575px) and (max-width:767px) {
-  .main {
-    .im1 {
-      .astroImage {
-        height: 250px;
-      }
-    }
-
-    .img2 {
-      a {
-        height: 90px;
-        width: 400px;
-        margin-top: 120px;
-      }
-
-      .buttonV {
-        font-size: 40px;
-      }
-
-      .womanImage2 {
-        display: none;
-      }
-    }
-
-    .img3 {
-
-      .surrealImage {
-        display: none;
-      }
-    }
-  }
-
-} */
-/*Tablet*/
+/*-----------------------------------------------------TABLETS-----------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 991px) {
-  /*Index*/
+  /*-----------------------------------------------------INDEX-----------------------------------------------------*/
   .main .img1 .astroImage {
     margin-bottom: 20px;
   }
@@ -1954,9 +2070,31 @@ p {
   section .hand .img-fluid {
     height: 280px;
   }
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+  .main-product {
+    height: 600px;
+  }
+  .main-product .card3 {
+    gap: 50px;
+  }
+  .main-product .card3 .card {
+    width: 210px;
+    height: 250px;
+  }
+  .main-product .card3 .card .details .center h1 {
+    font-size: 20px;
+  }
+  .main-product .card3 .card .details .center p {
+    font-size: 17px;
+  }
+  .main-product .card3 .card .details .center .btt-form {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+  }
 }
 
-/*Laptop*/
+/*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
 @media (min-width: 1024px) and (max-width: 1440px) {
   /*Index*/
   .main .img1 .astroImage {
@@ -2009,23 +2147,28 @@ p {
   section .hand .img-fluid {
     height: 500px;
   }
-}
-
-.footer {
-  text-align: center;
-  display: block;
-  position: absolute;
-  padding-top: 1rem;
-  bottom: 0;
-  width: 100%;
-  height: 7.5rem;
-  background: black;
-  color: white;
-}
-
-.footer img {
-  height: 35px;
-  width: 35px;
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+  .main-product {
+    height: 600px;
+  }
+  .main-product .card3 {
+    gap: 50px;
+  }
+  .main-product .card3 .card {
+    width: 210px;
+    height: 250px;
+  }
+  .main-product .card3 .card .details .center h1 {
+    font-size: 20px;
+  }
+  .main-product .card3 .card .details .center p {
+    font-size: 17px;
+  }
+  .main-product .card3 .card .details .center .btt-form {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+  }
 }
 
 * {
@@ -2045,7 +2188,7 @@ p {
   /* 20px*/
 }
 
-.container-product {
+.container-fluid {
   margin: 0;
 }
 
@@ -2198,6 +2341,23 @@ p {
   color: #000;
   font-size: 45px;
   font-weight: bolder;
+}
+
+.footer {
+  text-align: center;
+  display: block;
+  position: absolute;
+  padding-top: 1rem;
+  bottom: 100;
+  width: 100%;
+  height: 7.5rem;
+  background: black;
+  color: white;
+}
+
+.footer img {
+  height: 35px;
+  width: 35px;
 }
 
 .header {
@@ -2450,45 +2610,41 @@ p {
   section .hand .img-fluid {
     height: 120px;
   }
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+  .main-product {
+    height: 1200px;
+  }
+  .main-product .titleP {
+    padding: 20px;
+  }
+  .main-product .titleP h1 {
+    font-weight: 700;
+    padding-left: 10px;
+    font-size: 4rem;
+  }
+  .main-product .card3 {
+    gap: 50px;
+  }
+  .main-product .card3 .card {
+    width: 210px;
+    height: 250px;
+  }
+  .main-product .card3 .card .details .center h1 {
+    font-size: 20px;
+  }
+  .main-product .card3 .card .details .center p {
+    font-size: 17px;
+  }
+  .main-product .card3 .card .details .center .btt-form {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+  }
 }
 
-/*Big cel*/
-/* @media(min-width:575px) and (max-width:767px) {
-  .main {
-    .im1 {
-      .astroImage {
-        height: 250px;
-      }
-    }
-
-    .img2 {
-      a {
-        height: 90px;
-        width: 400px;
-        margin-top: 120px;
-      }
-
-      .buttonV {
-        font-size: 40px;
-      }
-
-      .womanImage2 {
-        display: none;
-      }
-    }
-
-    .img3 {
-
-      .surrealImage {
-        display: none;
-      }
-    }
-  }
-
-} */
-/*Tablet*/
+/*-----------------------------------------------------TABLETS-----------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 991px) {
-  /*Index*/
+  /*-----------------------------------------------------INDEX-----------------------------------------------------*/
   .main .img1 .astroImage {
     margin-bottom: 20px;
   }
@@ -2573,9 +2729,31 @@ p {
   section .hand .img-fluid {
     height: 280px;
   }
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+  .main-product {
+    height: 600px;
+  }
+  .main-product .card3 {
+    gap: 50px;
+  }
+  .main-product .card3 .card {
+    width: 210px;
+    height: 250px;
+  }
+  .main-product .card3 .card .details .center h1 {
+    font-size: 20px;
+  }
+  .main-product .card3 .card .details .center p {
+    font-size: 17px;
+  }
+  .main-product .card3 .card .details .center .btt-form {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+  }
 }
 
-/*Laptop*/
+/*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
 @media (min-width: 1024px) and (max-width: 1440px) {
   /*Index*/
   .main .img1 .astroImage {
@@ -2628,6 +2806,28 @@ p {
   section .hand .img-fluid {
     height: 500px;
   }
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+  .main-product {
+    height: 600px;
+  }
+  .main-product .card3 {
+    gap: 50px;
+  }
+  .main-product .card3 .card {
+    width: 210px;
+    height: 250px;
+  }
+  .main-product .card3 .card .details .center h1 {
+    font-size: 20px;
+  }
+  .main-product .card3 .card .details .center p {
+    font-size: 17px;
+  }
+  .main-product .card3 .card .details .center .btt-form {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+  }
 }
 
 .footer {
@@ -2635,7 +2835,7 @@ p {
   display: block;
   position: absolute;
   padding-top: 1rem;
-  bottom: 0;
+  bottom: 100;
   width: 100%;
   height: 7.5rem;
   background: black;
@@ -2892,7 +3092,7 @@ body {
   background: black;
 }
 
-.container-index {
+.container-fluid {
   margin: 0;
 }
 
@@ -3131,45 +3331,41 @@ main .img3 .surrealImage {
   section .hand .img-fluid {
     height: 120px;
   }
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+  .main-product {
+    height: 1200px;
+  }
+  .main-product .titleP {
+    padding: 20px;
+  }
+  .main-product .titleP h1 {
+    font-weight: 700;
+    padding-left: 10px;
+    font-size: 4rem;
+  }
+  .main-product .card3 {
+    gap: 50px;
+  }
+  .main-product .card3 .card {
+    width: 210px;
+    height: 250px;
+  }
+  .main-product .card3 .card .details .center h1 {
+    font-size: 20px;
+  }
+  .main-product .card3 .card .details .center p {
+    font-size: 17px;
+  }
+  .main-product .card3 .card .details .center .btt-form {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+  }
 }
 
-/*Big cel*/
-/* @media(min-width:575px) and (max-width:767px) {
-  .main {
-    .im1 {
-      .astroImage {
-        height: 250px;
-      }
-    }
-
-    .img2 {
-      a {
-        height: 90px;
-        width: 400px;
-        margin-top: 120px;
-      }
-
-      .buttonV {
-        font-size: 40px;
-      }
-
-      .womanImage2 {
-        display: none;
-      }
-    }
-
-    .img3 {
-
-      .surrealImage {
-        display: none;
-      }
-    }
-  }
-
-} */
-/*Tablet*/
+/*-----------------------------------------------------TABLETS-----------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 991px) {
-  /*Index*/
+  /*-----------------------------------------------------INDEX-----------------------------------------------------*/
   .main .img1 .astroImage {
     margin-bottom: 20px;
   }
@@ -3254,9 +3450,31 @@ main .img3 .surrealImage {
   section .hand .img-fluid {
     height: 280px;
   }
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+  .main-product {
+    height: 600px;
+  }
+  .main-product .card3 {
+    gap: 50px;
+  }
+  .main-product .card3 .card {
+    width: 210px;
+    height: 250px;
+  }
+  .main-product .card3 .card .details .center h1 {
+    font-size: 20px;
+  }
+  .main-product .card3 .card .details .center p {
+    font-size: 17px;
+  }
+  .main-product .card3 .card .details .center .btt-form {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+  }
 }
 
-/*Laptop*/
+/*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
 @media (min-width: 1024px) and (max-width: 1440px) {
   /*Index*/
   .main .img1 .astroImage {
@@ -3308,6 +3526,28 @@ main .img3 .surrealImage {
   }
   section .hand .img-fluid {
     height: 500px;
+  }
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+  .main-product {
+    height: 600px;
+  }
+  .main-product .card3 {
+    gap: 50px;
+  }
+  .main-product .card3 .card {
+    width: 210px;
+    height: 250px;
+  }
+  .main-product .card3 .card .details .center h1 {
+    font-size: 20px;
+  }
+  .main-product .card3 .card .details .center p {
+    font-size: 17px;
+  }
+  .main-product .card3 .card .details .center .btt-form {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

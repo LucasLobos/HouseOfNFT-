@@ -45,6 +45,7 @@
       }
     }
   }
+
   /*-----------------------------------------------------About-us-----------------------------------------------------*/
   .header {
     div {
@@ -55,11 +56,12 @@
 
   .main-about {
     height: 550px;
+
     .aling-text {
       .cont-h1 {
         height: 5rem;
         margin: 10px 0px;
-        
+
 
         h1 {
           font-size: 2rem;
@@ -85,42 +87,42 @@
         .c3-p1 {
           font-size: 1.2rem;
           background-image: linear-gradient(120deg, #ec008c, #fc6767 100%);
-                background-repeat: no-repeat;
-                background-size: 45% 0.3em;
-                background-position: 0 100%;
-                transition: background-size 0.25s ease-in;
+          background-repeat: no-repeat;
+          background-size: 45% 0.3em;
+          background-position: 0 100%;
+          transition: background-size 0.25s ease-in;
 
-                &:hover {
-                    background-size: 45% 88% !important;
-                }
+          &:hover {
+            background-size: 45% 88% !important;
+          }
 
         }
 
         .c3-p2 {
           font-size: 1.2rem;
           background-image: linear-gradient(120deg, #ec008c, #fc6767 100%);
-                background-repeat: no-repeat;
-                background-size: 55% 0.3em;
-                background-position: 0 100%;
-                transition: background-size 0.25s ease-in;
+          background-repeat: no-repeat;
+          background-size: 55% 0.3em;
+          background-position: 0 100%;
+          transition: background-size 0.25s ease-in;
 
-                &:hover {
-                    background-size: 55% 88% !important;
-                }
+          &:hover {
+            background-size: 55% 88% !important;
+          }
 
         }
 
         .c3-p3 {
           font-size: 1.2rem;
           background-image: linear-gradient(120deg, #ec008c, #fc6767 100%);
-                background-repeat: no-repeat;
-                background-size: 53.2% 0.3em;
-                background-position: 0 100%;
-                transition: background-size 0.25s ease-in;
+          background-repeat: no-repeat;
+          background-size: 53.2% 0.3em;
+          background-position: 0 100%;
+          transition: background-size 0.25s ease-in;
 
-                &:hover {
-                    background-size: 53.2% 88% !important;
-                }
+          &:hover {
+            background-size: 53.2% 88% !important;
+          }
         }
       }
     }
@@ -136,48 +138,59 @@
     }
   }
 
-}
 
+/*-----------------------------------------------------Product-----------------------------------------------------*/
 
-/*Big cel*/
-/* @media(min-width:575px) and (max-width:767px) {
-  .main {
-    .im1 {
-      .astroImage {
-        height: 250px;
-      }
-    }
+.main-product {
+  height: 1200px;
 
-    .img2 {
-      a {
-        height: 90px;
-        width: 400px;
-        margin-top: 120px;
-      }
+  .titleP {
+    padding: 20px;
+    h1{
+      font-weight: 700;
+      padding-left: 10px;
+      font-size: 4rem;
 
-      .buttonV {
-        font-size: 40px;
-      }
-
-      .womanImage2 {
-        display: none;
-      }
-    }
-
-    .img3 {
-
-      .surrealImage {
-        display: none;
-      }
     }
   }
 
-} */
+  .card3 {
+    gap: 50px;
 
-/*Tablet*/
+    .card {
+      width: 210px;
+      height: 250px;
+
+      .details {
+        .center {
+          h1 {
+            font-size: 20px;
+          }
+
+          p {
+            font-size: 17px;
+          }
+
+          .btt-form {
+            width: 150px;
+            height: 50px;
+            font-size: 15px;
+
+          }
+        }
+      }
+    }
+
+  }
+}
+}
+
+
+/*-----------------------------------------------------TABLETS-----------------------------------------------------*/
+
 @media(min-width:768px) and (max-width:991px) {
 
-  /*Index*/
+  /*-----------------------------------------------------INDEX-----------------------------------------------------*/
   .main {
 
     .img1 {
@@ -211,14 +224,16 @@
 
     }
   }
-    /*-----------------------------------------------------About-us-----------------------------------------------------*/
+
+  /*-----------------------------------------------------About-us-----------------------------------------------------*/
   .main-about {
     height: 750px;
+
     .aling-text {
       .cont-h1 {
         height: 5rem;
         margin: 10px 0px;
-        
+
 
         h1 {
           font-size: 4rem;
@@ -244,42 +259,42 @@
         .c3-p1 {
           font-size: 2.5rem;
           background-image: linear-gradient(120deg, #ec008c, #fc6767 100%);
-                background-repeat: no-repeat;
-                background-size: 36% 0.3em;
-                background-position: 0 100%;
-                transition: background-size 0.25s ease-in;
+          background-repeat: no-repeat;
+          background-size: 36% 0.3em;
+          background-position: 0 100%;
+          transition: background-size 0.25s ease-in;
 
-                &:hover {
-                    background-size: 36% 88% !important;
-                }
+          &:hover {
+            background-size: 36% 88% !important;
+          }
 
         }
 
         .c3-p2 {
           font-size: 2.5rem;
           background-image: linear-gradient(120deg, #ec008c, #fc6767 100%);
-                background-repeat: no-repeat;
-                background-size: 46% 0.3em;
-                background-position: 0 100%;
-                transition: background-size 0.25s ease-in;
+          background-repeat: no-repeat;
+          background-size: 46% 0.3em;
+          background-position: 0 100%;
+          transition: background-size 0.25s ease-in;
 
-                &:hover {
-                    background-size: 46% 88% !important;
-                }
+          &:hover {
+            background-size: 46% 88% !important;
+          }
 
         }
 
         .c3-p3 {
           font-size: 2.5rem;
           background-image: linear-gradient(120deg, #ec008c, #fc6767 100%);
-                background-repeat: no-repeat;
-                background-size: 44.2% 0.3em;
-                background-position: 0 100%;
-                transition: background-size 0.25s ease-in;
+          background-repeat: no-repeat;
+          background-size: 44.2% 0.3em;
+          background-position: 0 100%;
+          transition: background-size 0.25s ease-in;
 
-                &:hover {
-                    background-size: 44.2% 88% !important;
-                }
+          &:hover {
+            background-size: 44.2% 88% !important;
+          }
         }
       }
     }
@@ -295,9 +310,48 @@
     }
   }
 
+
+  /*-----------------------------------------------------Product-----------------------------------------------------*/
+
+  .main-product {
+    height: 600px;
+
+    .card3 {
+      gap: 50px;
+
+      .card {
+        width: 210px;
+        height: 250px;
+
+        .details {
+          .center {
+            h1 {
+              font-size: 20px;
+            }
+
+            p {
+              font-size: 17px;
+            }
+
+            .btt-form {
+              width: 150px;
+              height: 50px;
+              font-size: 15px;
+
+            }
+          }
+        }
+      }
+
+    }
+  }
+
 }
 
-/*Laptop*/
+
+/*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
+
+
 @media(min-width:1024px) and (max-width:1440px) {
 
   /*Index*/
@@ -375,4 +429,39 @@
       }
     }
   }
+    /*-----------------------------------------------------Product-----------------------------------------------------*/
+
+  .main-product {
+    height: 600px;
+
+    .card3 {
+      gap: 50px;
+
+      .card {
+        width: 210px;
+        height: 250px;
+
+        .details {
+          .center {
+            h1 {
+              font-size: 20px;
+            }
+
+            p {
+              font-size: 17px;
+            }
+
+            .btt-form {
+              width: 150px;
+              height: 50px;
+              font-size: 15px;
+
+            }
+          }
+        }
+      }
+
+    }
+  }
+
 }

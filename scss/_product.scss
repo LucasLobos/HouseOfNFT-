@@ -1,5 +1,4 @@
 @import "header";
-@import "footer";
 
 
 
@@ -20,8 +19,9 @@ p {
     /* 20px*/
 }
 
-.container-product{
-  margin: 0;
+
+.container-fluid{
+    margin: 0;
 }
 
 .main-product {
@@ -148,3 +148,4 @@ p {
     font-size: 45px;
     font-weight: bolder;
 }
+@import "footer";
