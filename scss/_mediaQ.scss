@@ -1,30 +1,145 @@
-
-
 @import "variables";
 
+/*Small Cel*/
+@media(min-width:365px) and (max-width:767px) {
 
-@media(max-width:575px) {}
+  .header{
+    div{
+      padding-left:80px ;
+    }
 
-@media(min-width:575px) and (max-width:767px) {}
+  }
 
+  .main {
+
+    .img1 {
+      .astroImage {
+        height: 150px;
+        margin-bottom: 20px;
+      }
+    }
+
+    .img2 {
+      a {
+        height: 40px;
+        width: 100px;
+        margin-top: 120px;
+      }
+
+      .buttonV {
+        font-size: 10px;
+        padding-left: 22px;
+        padding-top: 10px;
+      }
+
+     /*  .womanImage2 {
+        display: none;
+      } */
+    }
+
+    .img3 {
+
+      .surrealImage {
+        display: none;
+      }
+    }
+  }
+}
+
+/*Big cel*/
+/* @media(min-width:575px) and (max-width:767px) {
+  .main {
+    .im1 {
+      .astroImage {
+        height: 250px;
+      }
+    }
+
+    .img2 {
+      a {
+        height: 90px;
+        width: 400px;
+        margin-top: 120px;
+      }
+
+      .buttonV {
+        font-size: 40px;
+      }
+
+      .womanImage2 {
+        display: none;
+      }
+    }
+
+    .img3 {
+
+      .surrealImage {
+        display: none;
+      }
+    }
+  }
+
+} */
+
+/*Tablet*/
 @media(min-width:768px) and (max-width:991px) {
 
-  
+  .main {
+
+    .img1 {
+      .astroImage {
+            margin-bottom: 20px;
+      }
+    }
+    .img2 {
+      a {
+        height: 90px;
+        width: 400px;
+        margin-top: 120px;
+      }
+
+      .buttonV {
+        font-size: 40px;
+      }
+
+      .womanImage2 {
+        display: none;
+      }
+
+    }
+
+    .img3 {
+
+      .surrealImage {
+        display: none;
+      }
+
+    }
+  }
 
 }
 
-@media(min-width:992) {}
+/*Laptop*/
+@media(min-width:1024px) and (max-width:1440px) {
 
+  .main {
 
-$small: 300px;
-$medium: 900px;
+    .img1 {
+      .astroImage {
+            margin-bottom: 20px;
+      }
+    }
+    .img2 {
+      a {
+        margin-top: 200px;
+        height: 90px;
+        width: 400px;
+      }
 
-.smth {
-  //some CSS
-  @media screen and (max-width: $small) {
-    //do Smth
-  }
-  @media screen and (min-width: $medium) {
-    //do Smth
+      .buttonV {
+        font-size: 40px;
+        padding-top: 5px;
+      }
+    }
   }
 }

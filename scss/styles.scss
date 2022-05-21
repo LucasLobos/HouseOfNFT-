@@ -1,5 +1,4 @@
 @import "variables";
-@import "../libs/bootstrap/scss/bootstrap";
 @import "header";
 @import "about-us";
 @import "contact";
@@ -26,7 +25,7 @@ p {
 }
 
 body {
-    background: rgb(2, 0, 36);
+    background: black;
 }
 
 .container-index {
@@ -54,9 +53,15 @@ main {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-around;
 
         .womanImage {
-            width: 35%;
+            width: 30%;
+            object-fit: cover;
+
+        }
+        .womanImage2 {
+            width: 30%;
             object-fit: cover;
 
         }
@@ -142,6 +147,5 @@ main {
     }
 }
 
-
-@import "mediaQ";
-@import "footer";
+/* @import "mediaQ";
+ */ 

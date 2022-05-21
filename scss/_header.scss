@@ -1,50 +1,117 @@
-
 @import "variables";
-@import "mediaQ";
 
 .header {
     background-color: black;
     border-bottom: 2px solid $secondaryColor;
-    width: 100vw;
-}
 
 
+        .navbar-toggler {
+            
+            width: 20px;
+            height: 20px;
+            position: relative;
+            transition: .5 ease-in-out;
 
-.navbar-brand {
-    color: rgb(100, 61, 136);
-    font-size: 3rem;
-    display: flex;
-    padding-left: 0.5rem;
-    transition: all 2s;
-    cursor:pointer;
-    &:Hover {
+        }
 
-        font-size: 5rem;
+        .navbar-toggler,
+        .navbar-toggler:focus,
+        .navbar-toggler:active,
+        .navbar-toggler-icon:focus{
+            outline: none;
+            box-shadow: none;
+            border:0;
+        }
+
+        .navbar-toggler:span{
+            margin: 0;
+            padding: 0;
+        }
+
+        .toggler-icon {
+            display: block;
+            position: absolute;
+            height: 3px;
+            width: 100%;
+            background:#d3531a;
+            border-radius: 1px;
+            opacity: 1;
+            left: 0;
+            transform: rotate(0deg);
+            transition: .25 ease-in-out;
+        }
+
+        .middle-bar{
+            margin-top: 0px;
+        }
+
+        .navbar-toggler .top-bar{
+            margin-top: 0px;
+            transform: rotate(135deg);
+
+        }
+
+        .navbar-toggler .middle-bar{
+            opacity: 0;
+            filter: alpha(opacity=0);
+        }
+        .navbar-toggler .bottom-bar{
+            margin-top: 0px;
+            transform: rotate(-135deg);
+        }
+
+
+        .navbar-toggler.collapsed .top-bar{
+            margin-top: -20px;
+            transform:  rotate(0deg);
+        }
+
+        .navbar-toggler.collapsed .middle-bar{
+            opacity: 1;
+            filter: alpha(opacity=100);
+        }
+
+        .navbar-toggler.collapsed .bottom-bar{
+            margin-top: 20px;
+            transform: rotate(0deg);
+        }
+    .navbar-brand {
         color: rgb(100, 61, 136);
-    
+        font-size: 3rem;
+        display: flex;
+        padding-left: 0.5rem;
+        transition: all 2s;
+        cursor: pointer;
+
+        &:Hover {
+
+            font-size: 5rem;
+            color: rgb(100, 61, 136);
+
+        }
     }
-}
 
 
-.nav-Logo-Title {
+    .nav-Logo-Title {
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
 
-}
+    }
 
-.navbar-ul{
+    .navbar-ul {
 
         display: flex;
         align-items: center;
         justify-content: center;
 
-        .navbar-nav{
+        .navbar-nav {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             gap: 4rem;
+
             li a {
 
                 justify-content: end;
@@ -53,14 +120,15 @@
                 text-decoration: none;
                 font-size: 2.5rem;
                 transition: all 1.5s;
+
                 &:Hover {
                     color: $secondaryColor;
                 }
-            
+
             }
         }
-        
+
+    }
+
 }
-
-
-
+@import "mediaQ";
