@@ -1,148 +1,57 @@
-.header {
-  background-color: black;
-  border-bottom: 2px solid #87006C;
-}
-
-.header .header2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.header .header2 .navbar-toggler {
-  background-color: white;
-}
-
-.header .header2 .nav-Logo-Title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.header .header2 .nav-Logo-Title .navbar-brand {
-  color: #643d88;
-  font-size: 3rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 0.5rem;
-  -webkit-transition: all 2s;
-  transition: all 2s;
-  cursor: pointer;
-}
-
-.header .header2 .nav-Logo-Title .navbar-brand:Hover {
-  font-size: 5rem;
-  color: #643d88;
-}
-
-.header .header2 .navbar-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 4rem;
-}
-
-.header .header2 .navbar-nav .nav-item .nav-link {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  list-style: none;
-  color: azure;
-  text-decoration: none;
-  font-size: 2.5rem;
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
-}
-
-.header .header2 .navbar-nav .nav-item .nav-link:Hover {
-  color: #87006C;
-}
-
 /*Cel*/
 @media (min-width: 365px) and (max-width: 767px) {
   /*Index*/
-  .header2 {
+  .header .header2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .header2 .nav-Logo-Title {
+  .header .header2 .nav-Logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .header2 .nav-Logo-Title .navbar-brand {
-    color: #643d88;
-    font-size: 3rem;
+  .header .header2 .nav-Logo a img {
+    height: 130px;
+    width: 135px;
+  }
+  .header .header2 .navbar-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 0.5rem;
-    -webkit-transition: all 2s;
-    transition: all 2s;
-    cursor: pointer;
-  }
-  .header2 .nav-Logo-Title .navbar-brand:Hover {
-    font-size: 5rem;
-    color: #643d88;
-  }
-  .header2 #navbarSupportedContent .navbar-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 4rem;
+    gap: 2rem;
   }
-  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    list-style: none;
+  .header .header2 .navbar-nav .nav-item .nav-link {
     color: azure;
-    text-decoration: none;
     font-size: 2.5rem;
-    -webkit-transition: all 1.5s;
-    transition: all 1.5s;
   }
-  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link:Hover {
+  .header .header2 .navbar-nav .nav-item .nav-link:Hover {
     color: #87006C;
   }
   .main .img1 .astroImage {
@@ -168,9 +77,6 @@
     display: none;
   }
   /*-----------------------------------------------------About-us-----------------------------------------------------*/
-  .header div {
-    padding-left: 80px;
-  }
   .main-about {
     height: 550px;
   }
@@ -557,6 +463,27 @@
     font-size: 25px;
     padding-bottom: 40px;
   }
+  /*-----------------------------------------------------HEADER TABLETS-----------------------------------------------------*/
+  .header .header2 .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  .header .header2 .navbar-nav .nav-item .nav-link {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    color: azure;
+    font-size: 3rem;
+    border-bottom: 0.1rem solid #ec008c;
+    border-top: 0.1rem solid #ec008c;
+  }
 }
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -660,13 +587,25 @@
     font-size: 3rem;
   }
   /*-----------------------------------------------------Contact-----------------------------------------------------*/
-  header .header2 .nav-Logo-Title a logoT {
+  .header .header2 .nav-Logo a img {
     height: 120px;
     width: 130px;
   }
-  header .header2 .nav-Logo-Title .navbar-brand {
+  .header .header2 .titleNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .header2 .titleNav .navbar-brand {
     color: #643d88;
-    font-size: 4rem;
+    font-size: 2.5rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -675,16 +614,31 @@
     transition: all 2s;
     cursor: pointer;
   }
-  header .header2 .nav-Logo-Title .navbar-brand:Hover {
+  .header .header2 .titleNav .navbar-brand:Hover {
     font-size: 3rem;
+    color: #643d88;
   }
-  header .header2 .navbar-nav {
-    gap: 1rem;
+  .header .header2 .titleNav .navbar-brand .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 0.2rem;
   }
-  header .header2 .navbar-nav .nav-item .nav-link {
+  .header .header2 .titleNav .navbar-brand .navbar-nav .nav-item .nav-link {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    color: azure;
     font-size: 2rem;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
   }
-  .mainSection {
+  .header .header2 .mainSection {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -701,11 +655,11 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .mainSection .titleContact {
+  .header .header2 .mainSection .titleContact {
     height: 500px;
     width: 400px;
   }
-  .mainSection .titleContact h1 {
+  .header .header2 .mainSection .titleContact h1 {
     font-size: 50px;
   }
 }
@@ -728,7 +682,7 @@
   background-color: white;
 }
 
-.header .header2 .nav-Logo-Title {
+.header .header2 .titleNav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -741,7 +695,7 @@
           align-items: center;
 }
 
-.header .header2 .nav-Logo-Title .navbar-brand {
+.header .header2 .titleNav .navbar-brand {
   color: #643d88;
   font-size: 3rem;
   display: -webkit-box;
@@ -753,7 +707,7 @@
   cursor: pointer;
 }
 
-.header .header2 .nav-Logo-Title .navbar-brand:Hover {
+.header .header2 .titleNav .navbar-brand:Hover {
   font-size: 5rem;
   color: #643d88;
 }
@@ -768,7 +722,7 @@
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 4rem;
+  gap: 1rem;
 }
 
 .header .header2 .navbar-nav .nav-item .nav-link {
@@ -790,71 +744,57 @@
 /*Cel*/
 @media (min-width: 365px) and (max-width: 767px) {
   /*Index*/
-  .header2 {
+  .header .header2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .header2 .nav-Logo-Title {
+  .header .header2 .nav-Logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .header2 .nav-Logo-Title .navbar-brand {
-    color: #643d88;
-    font-size: 3rem;
+  .header .header2 .nav-Logo a img {
+    height: 130px;
+    width: 135px;
+  }
+  .header .header2 .navbar-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 0.5rem;
-    -webkit-transition: all 2s;
-    transition: all 2s;
-    cursor: pointer;
-  }
-  .header2 .nav-Logo-Title .navbar-brand:Hover {
-    font-size: 5rem;
-    color: #643d88;
-  }
-  .header2 #navbarSupportedContent .navbar-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 4rem;
+    gap: 2rem;
   }
-  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    list-style: none;
+  .header .header2 .navbar-nav .nav-item .nav-link {
     color: azure;
-    text-decoration: none;
     font-size: 2.5rem;
-    -webkit-transition: all 1.5s;
-    transition: all 1.5s;
   }
-  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link:Hover {
+  .header .header2 .navbar-nav .nav-item .nav-link:Hover {
     color: #87006C;
   }
   .main .img1 .astroImage {
@@ -880,9 +820,6 @@
     display: none;
   }
   /*-----------------------------------------------------About-us-----------------------------------------------------*/
-  .header div {
-    padding-left: 80px;
-  }
   .main-about {
     height: 550px;
   }
@@ -1269,6 +1206,27 @@
     font-size: 25px;
     padding-bottom: 40px;
   }
+  /*-----------------------------------------------------HEADER TABLETS-----------------------------------------------------*/
+  .header .header2 .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  .header .header2 .navbar-nav .nav-item .nav-link {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    color: azure;
+    font-size: 3rem;
+    border-bottom: 0.1rem solid #ec008c;
+    border-top: 0.1rem solid #ec008c;
+  }
 }
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -1372,13 +1330,25 @@
     font-size: 3rem;
   }
   /*-----------------------------------------------------Contact-----------------------------------------------------*/
-  header .header2 .nav-Logo-Title a logoT {
+  .header .header2 .nav-Logo a img {
     height: 120px;
     width: 130px;
   }
-  header .header2 .nav-Logo-Title .navbar-brand {
+  .header .header2 .titleNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .header2 .titleNav .navbar-brand {
     color: #643d88;
-    font-size: 4rem;
+    font-size: 2.5rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1387,16 +1357,31 @@
     transition: all 2s;
     cursor: pointer;
   }
-  header .header2 .nav-Logo-Title .navbar-brand:Hover {
+  .header .header2 .titleNav .navbar-brand:Hover {
     font-size: 3rem;
+    color: #643d88;
   }
-  header .header2 .navbar-nav {
-    gap: 1rem;
+  .header .header2 .titleNav .navbar-brand .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 0.2rem;
   }
-  header .header2 .navbar-nav .nav-item .nav-link {
+  .header .header2 .titleNav .navbar-brand .navbar-nav .nav-item .nav-link {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    color: azure;
     font-size: 2rem;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
   }
-  .mainSection {
+  .header .header2 .mainSection {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1413,13 +1398,90 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .mainSection .titleContact {
+  .header .header2 .mainSection .titleContact {
     height: 500px;
     width: 400px;
   }
-  .mainSection .titleContact h1 {
+  .header .header2 .mainSection .titleContact h1 {
     font-size: 50px;
   }
+}
+
+.header {
+  background-color: black;
+  border-bottom: 2px solid #87006C;
+}
+
+.header .header2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .header2 .navbar-toggler {
+  background-color: white;
+}
+
+.header .header2 .titleNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header2 .titleNav .navbar-brand {
+  color: #643d88;
+  font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0.5rem;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  cursor: pointer;
+}
+
+.header .header2 .titleNav .navbar-brand:Hover {
+  font-size: 5rem;
+  color: #643d88;
+}
+
+.header .header2 .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.header .header2 .navbar-nav .nav-item .nav-link {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  list-style: none;
+  color: azure;
+  text-decoration: none;
+  font-size: 2.5rem;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.header .header2 .navbar-nav .nav-item .nav-link:Hover {
+  color: #87006C;
 }
 
 * {
@@ -1578,151 +1640,60 @@ p {
   width: 35px;
 }
 
-.header {
-  background-color: black;
-  border-bottom: 2px solid #87006C;
-}
-
-.header .header2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.header .header2 .navbar-toggler {
-  background-color: white;
-}
-
-.header .header2 .nav-Logo-Title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.header .header2 .nav-Logo-Title .navbar-brand {
-  color: #643d88;
-  font-size: 3rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 0.5rem;
-  -webkit-transition: all 2s;
-  transition: all 2s;
-  cursor: pointer;
-}
-
-.header .header2 .nav-Logo-Title .navbar-brand:Hover {
-  font-size: 5rem;
-  color: #643d88;
-}
-
-.header .header2 .navbar-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 4rem;
-}
-
-.header .header2 .navbar-nav .nav-item .nav-link {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  list-style: none;
-  color: azure;
-  text-decoration: none;
-  font-size: 2.5rem;
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
-}
-
-.header .header2 .navbar-nav .nav-item .nav-link:Hover {
-  color: #87006C;
-}
-
 /*Cel*/
 @media (min-width: 365px) and (max-width: 767px) {
   /*Index*/
-  .header2 {
+  .header .header2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .header2 .nav-Logo-Title {
+  .header .header2 .nav-Logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .header2 .nav-Logo-Title .navbar-brand {
-    color: #643d88;
-    font-size: 3rem;
+  .header .header2 .nav-Logo a img {
+    height: 130px;
+    width: 135px;
+  }
+  .header .header2 .navbar-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 0.5rem;
-    -webkit-transition: all 2s;
-    transition: all 2s;
-    cursor: pointer;
-  }
-  .header2 .nav-Logo-Title .navbar-brand:Hover {
-    font-size: 5rem;
-    color: #643d88;
-  }
-  .header2 #navbarSupportedContent .navbar-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 4rem;
+    gap: 2rem;
   }
-  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    list-style: none;
+  .header .header2 .navbar-nav .nav-item .nav-link {
     color: azure;
-    text-decoration: none;
     font-size: 2.5rem;
-    -webkit-transition: all 1.5s;
-    transition: all 1.5s;
   }
-  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link:Hover {
+  .header .header2 .navbar-nav .nav-item .nav-link:Hover {
     color: #87006C;
   }
   .main .img1 .astroImage {
@@ -1748,9 +1719,6 @@ p {
     display: none;
   }
   /*-----------------------------------------------------About-us-----------------------------------------------------*/
-  .header div {
-    padding-left: 80px;
-  }
   .main-about {
     height: 550px;
   }
@@ -2137,6 +2105,27 @@ p {
     font-size: 25px;
     padding-bottom: 40px;
   }
+  /*-----------------------------------------------------HEADER TABLETS-----------------------------------------------------*/
+  .header .header2 .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  .header .header2 .navbar-nav .nav-item .nav-link {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    color: azure;
+    font-size: 3rem;
+    border-bottom: 0.1rem solid #ec008c;
+    border-top: 0.1rem solid #ec008c;
+  }
 }
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -2240,13 +2229,25 @@ p {
     font-size: 3rem;
   }
   /*-----------------------------------------------------Contact-----------------------------------------------------*/
-  header .header2 .nav-Logo-Title a logoT {
+  .header .header2 .nav-Logo a img {
     height: 120px;
     width: 130px;
   }
-  header .header2 .nav-Logo-Title .navbar-brand {
+  .header .header2 .titleNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .header2 .titleNav .navbar-brand {
     color: #643d88;
-    font-size: 4rem;
+    font-size: 2.5rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2255,16 +2256,31 @@ p {
     transition: all 2s;
     cursor: pointer;
   }
-  header .header2 .nav-Logo-Title .navbar-brand:Hover {
+  .header .header2 .titleNav .navbar-brand:Hover {
     font-size: 3rem;
+    color: #643d88;
   }
-  header .header2 .navbar-nav {
-    gap: 1rem;
+  .header .header2 .titleNav .navbar-brand .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 0.2rem;
   }
-  header .header2 .navbar-nav .nav-item .nav-link {
+  .header .header2 .titleNav .navbar-brand .navbar-nav .nav-item .nav-link {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    color: azure;
     font-size: 2rem;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
   }
-  .mainSection {
+  .header .header2 .mainSection {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2281,13 +2297,90 @@ p {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .mainSection .titleContact {
+  .header .header2 .mainSection .titleContact {
     height: 500px;
     width: 400px;
   }
-  .mainSection .titleContact h1 {
+  .header .header2 .mainSection .titleContact h1 {
     font-size: 50px;
   }
+}
+
+.header {
+  background-color: black;
+  border-bottom: 2px solid #87006C;
+}
+
+.header .header2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .header2 .navbar-toggler {
+  background-color: white;
+}
+
+.header .header2 .titleNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header2 .titleNav .navbar-brand {
+  color: #643d88;
+  font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0.5rem;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  cursor: pointer;
+}
+
+.header .header2 .titleNav .navbar-brand:Hover {
+  font-size: 5rem;
+  color: #643d88;
+}
+
+.header .header2 .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.header .header2 .navbar-nav .nav-item .nav-link {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  list-style: none;
+  color: azure;
+  text-decoration: none;
+  font-size: 2.5rem;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.header .header2 .navbar-nav .nav-item .nav-link:Hover {
+  color: #87006C;
 }
 
 .footer {
@@ -2427,151 +2520,60 @@ p {
   cursor: pointer;
 }
 
-.header {
-  background-color: black;
-  border-bottom: 2px solid #87006C;
-}
-
-.header .header2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.header .header2 .navbar-toggler {
-  background-color: white;
-}
-
-.header .header2 .nav-Logo-Title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.header .header2 .nav-Logo-Title .navbar-brand {
-  color: #643d88;
-  font-size: 3rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 0.5rem;
-  -webkit-transition: all 2s;
-  transition: all 2s;
-  cursor: pointer;
-}
-
-.header .header2 .nav-Logo-Title .navbar-brand:Hover {
-  font-size: 5rem;
-  color: #643d88;
-}
-
-.header .header2 .navbar-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 4rem;
-}
-
-.header .header2 .navbar-nav .nav-item .nav-link {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  list-style: none;
-  color: azure;
-  text-decoration: none;
-  font-size: 2.5rem;
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
-}
-
-.header .header2 .navbar-nav .nav-item .nav-link:Hover {
-  color: #87006C;
-}
-
 /*Cel*/
 @media (min-width: 365px) and (max-width: 767px) {
   /*Index*/
-  .header2 {
+  .header .header2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .header2 .nav-Logo-Title {
+  .header .header2 .nav-Logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .header2 .nav-Logo-Title .navbar-brand {
-    color: #643d88;
-    font-size: 3rem;
+  .header .header2 .nav-Logo a img {
+    height: 130px;
+    width: 135px;
+  }
+  .header .header2 .navbar-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 0.5rem;
-    -webkit-transition: all 2s;
-    transition: all 2s;
-    cursor: pointer;
-  }
-  .header2 .nav-Logo-Title .navbar-brand:Hover {
-    font-size: 5rem;
-    color: #643d88;
-  }
-  .header2 #navbarSupportedContent .navbar-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 4rem;
+    gap: 2rem;
   }
-  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    list-style: none;
+  .header .header2 .navbar-nav .nav-item .nav-link {
     color: azure;
-    text-decoration: none;
     font-size: 2.5rem;
-    -webkit-transition: all 1.5s;
-    transition: all 1.5s;
   }
-  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link:Hover {
+  .header .header2 .navbar-nav .nav-item .nav-link:Hover {
     color: #87006C;
   }
   .main .img1 .astroImage {
@@ -2597,9 +2599,6 @@ p {
     display: none;
   }
   /*-----------------------------------------------------About-us-----------------------------------------------------*/
-  .header div {
-    padding-left: 80px;
-  }
   .main-about {
     height: 550px;
   }
@@ -2986,6 +2985,27 @@ p {
     font-size: 25px;
     padding-bottom: 40px;
   }
+  /*-----------------------------------------------------HEADER TABLETS-----------------------------------------------------*/
+  .header .header2 .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  .header .header2 .navbar-nav .nav-item .nav-link {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    color: azure;
+    font-size: 3rem;
+    border-bottom: 0.1rem solid #ec008c;
+    border-top: 0.1rem solid #ec008c;
+  }
 }
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -3089,13 +3109,25 @@ p {
     font-size: 3rem;
   }
   /*-----------------------------------------------------Contact-----------------------------------------------------*/
-  header .header2 .nav-Logo-Title a logoT {
+  .header .header2 .nav-Logo a img {
     height: 120px;
     width: 130px;
   }
-  header .header2 .nav-Logo-Title .navbar-brand {
+  .header .header2 .titleNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .header2 .titleNav .navbar-brand {
     color: #643d88;
-    font-size: 4rem;
+    font-size: 2.5rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3104,16 +3136,31 @@ p {
     transition: all 2s;
     cursor: pointer;
   }
-  header .header2 .nav-Logo-Title .navbar-brand:Hover {
+  .header .header2 .titleNav .navbar-brand:Hover {
     font-size: 3rem;
+    color: #643d88;
   }
-  header .header2 .navbar-nav {
-    gap: 1rem;
+  .header .header2 .titleNav .navbar-brand .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 0.2rem;
   }
-  header .header2 .navbar-nav .nav-item .nav-link {
+  .header .header2 .titleNav .navbar-brand .navbar-nav .nav-item .nav-link {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    color: azure;
     font-size: 2rem;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
   }
-  .mainSection {
+  .header .header2 .mainSection {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3130,13 +3177,90 @@ p {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .mainSection .titleContact {
+  .header .header2 .mainSection .titleContact {
     height: 500px;
     width: 400px;
   }
-  .mainSection .titleContact h1 {
+  .header .header2 .mainSection .titleContact h1 {
     font-size: 50px;
   }
+}
+
+.header {
+  background-color: black;
+  border-bottom: 2px solid #87006C;
+}
+
+.header .header2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .header2 .navbar-toggler {
+  background-color: white;
+}
+
+.header .header2 .titleNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header2 .titleNav .navbar-brand {
+  color: #643d88;
+  font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0.5rem;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  cursor: pointer;
+}
+
+.header .header2 .titleNav .navbar-brand:Hover {
+  font-size: 5rem;
+  color: #643d88;
+}
+
+.header .header2 .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.header .header2 .navbar-nav .nav-item .nav-link {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  list-style: none;
+  color: azure;
+  text-decoration: none;
+  font-size: 2.5rem;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.header .header2 .navbar-nav .nav-item .nav-link:Hover {
+  color: #87006C;
 }
 
 * {
@@ -3328,151 +3452,60 @@ p {
   width: 35px;
 }
 
-.header {
-  background-color: black;
-  border-bottom: 2px solid #87006C;
-}
-
-.header .header2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.header .header2 .navbar-toggler {
-  background-color: white;
-}
-
-.header .header2 .nav-Logo-Title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.header .header2 .nav-Logo-Title .navbar-brand {
-  color: #643d88;
-  font-size: 3rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 0.5rem;
-  -webkit-transition: all 2s;
-  transition: all 2s;
-  cursor: pointer;
-}
-
-.header .header2 .nav-Logo-Title .navbar-brand:Hover {
-  font-size: 5rem;
-  color: #643d88;
-}
-
-.header .header2 .navbar-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 4rem;
-}
-
-.header .header2 .navbar-nav .nav-item .nav-link {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  list-style: none;
-  color: azure;
-  text-decoration: none;
-  font-size: 2.5rem;
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
-}
-
-.header .header2 .navbar-nav .nav-item .nav-link:Hover {
-  color: #87006C;
-}
-
 /*Cel*/
 @media (min-width: 365px) and (max-width: 767px) {
   /*Index*/
-  .header2 {
+  .header .header2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .header2 .nav-Logo-Title {
+  .header .header2 .nav-Logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .header2 .nav-Logo-Title .navbar-brand {
-    color: #643d88;
-    font-size: 3rem;
+  .header .header2 .nav-Logo a img {
+    height: 130px;
+    width: 135px;
+  }
+  .header .header2 .navbar-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 0.5rem;
-    -webkit-transition: all 2s;
-    transition: all 2s;
-    cursor: pointer;
-  }
-  .header2 .nav-Logo-Title .navbar-brand:Hover {
-    font-size: 5rem;
-    color: #643d88;
-  }
-  .header2 #navbarSupportedContent .navbar-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 4rem;
+    gap: 2rem;
   }
-  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    list-style: none;
+  .header .header2 .navbar-nav .nav-item .nav-link {
     color: azure;
-    text-decoration: none;
     font-size: 2.5rem;
-    -webkit-transition: all 1.5s;
-    transition: all 1.5s;
   }
-  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link:Hover {
+  .header .header2 .navbar-nav .nav-item .nav-link:Hover {
     color: #87006C;
   }
   .main .img1 .astroImage {
@@ -3498,9 +3531,6 @@ p {
     display: none;
   }
   /*-----------------------------------------------------About-us-----------------------------------------------------*/
-  .header div {
-    padding-left: 80px;
-  }
   .main-about {
     height: 550px;
   }
@@ -3887,6 +3917,27 @@ p {
     font-size: 25px;
     padding-bottom: 40px;
   }
+  /*-----------------------------------------------------HEADER TABLETS-----------------------------------------------------*/
+  .header .header2 .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  .header .header2 .navbar-nav .nav-item .nav-link {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    color: azure;
+    font-size: 3rem;
+    border-bottom: 0.1rem solid #ec008c;
+    border-top: 0.1rem solid #ec008c;
+  }
 }
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -3990,13 +4041,25 @@ p {
     font-size: 3rem;
   }
   /*-----------------------------------------------------Contact-----------------------------------------------------*/
-  header .header2 .nav-Logo-Title a logoT {
+  .header .header2 .nav-Logo a img {
     height: 120px;
     width: 130px;
   }
-  header .header2 .nav-Logo-Title .navbar-brand {
+  .header .header2 .titleNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .header2 .titleNav .navbar-brand {
     color: #643d88;
-    font-size: 4rem;
+    font-size: 2.5rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4005,16 +4068,31 @@ p {
     transition: all 2s;
     cursor: pointer;
   }
-  header .header2 .nav-Logo-Title .navbar-brand:Hover {
+  .header .header2 .titleNav .navbar-brand:Hover {
     font-size: 3rem;
+    color: #643d88;
   }
-  header .header2 .navbar-nav {
-    gap: 1rem;
+  .header .header2 .titleNav .navbar-brand .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 0.2rem;
   }
-  header .header2 .navbar-nav .nav-item .nav-link {
+  .header .header2 .titleNav .navbar-brand .navbar-nav .nav-item .nav-link {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    color: azure;
     font-size: 2rem;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
   }
-  .mainSection {
+  .header .header2 .mainSection {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4031,13 +4109,90 @@ p {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .mainSection .titleContact {
+  .header .header2 .mainSection .titleContact {
     height: 500px;
     width: 400px;
   }
-  .mainSection .titleContact h1 {
+  .header .header2 .mainSection .titleContact h1 {
     font-size: 50px;
   }
+}
+
+.header {
+  background-color: black;
+  border-bottom: 2px solid #87006C;
+}
+
+.header .header2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .header2 .navbar-toggler {
+  background-color: white;
+}
+
+.header .header2 .titleNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header2 .titleNav .navbar-brand {
+  color: #643d88;
+  font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0.5rem;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  cursor: pointer;
+}
+
+.header .header2 .titleNav .navbar-brand:Hover {
+  font-size: 5rem;
+  color: #643d88;
+}
+
+.header .header2 .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.header .header2 .navbar-nav .nav-item .nav-link {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  list-style: none;
+  color: azure;
+  text-decoration: none;
+  font-size: 2.5rem;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.header .header2 .navbar-nav .nav-item .nav-link:Hover {
+  color: #87006C;
 }
 
 .footer {
@@ -4443,71 +4598,57 @@ main .img3 .surrealImage {
 /*Cel*/
 @media (min-width: 365px) and (max-width: 767px) {
   /*Index*/
-  .header2 {
+  .header .header2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .header2 .nav-Logo-Title {
+  .header .header2 .nav-Logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .header2 .nav-Logo-Title .navbar-brand {
-    color: #643d88;
-    font-size: 3rem;
+  .header .header2 .nav-Logo a img {
+    height: 130px;
+    width: 135px;
+  }
+  .header .header2 .navbar-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 0.5rem;
-    -webkit-transition: all 2s;
-    transition: all 2s;
-    cursor: pointer;
-  }
-  .header2 .nav-Logo-Title .navbar-brand:Hover {
-    font-size: 5rem;
-    color: #643d88;
-  }
-  .header2 #navbarSupportedContent .navbar-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 4rem;
+    gap: 2rem;
   }
-  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    list-style: none;
+  .header .header2 .navbar-nav .nav-item .nav-link {
     color: azure;
-    text-decoration: none;
     font-size: 2.5rem;
-    -webkit-transition: all 1.5s;
-    transition: all 1.5s;
   }
-  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link:Hover {
+  .header .header2 .navbar-nav .nav-item .nav-link:Hover {
     color: #87006C;
   }
   .main .img1 .astroImage {
@@ -4533,9 +4674,6 @@ main .img3 .surrealImage {
     display: none;
   }
   /*-----------------------------------------------------About-us-----------------------------------------------------*/
-  .header div {
-    padding-left: 80px;
-  }
   .main-about {
     height: 550px;
   }
@@ -4922,6 +5060,27 @@ main .img3 .surrealImage {
     font-size: 25px;
     padding-bottom: 40px;
   }
+  /*-----------------------------------------------------HEADER TABLETS-----------------------------------------------------*/
+  .header .header2 .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  .header .header2 .navbar-nav .nav-item .nav-link {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    color: azure;
+    font-size: 3rem;
+    border-bottom: 0.1rem solid #ec008c;
+    border-top: 0.1rem solid #ec008c;
+  }
 }
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -5025,13 +5184,25 @@ main .img3 .surrealImage {
     font-size: 3rem;
   }
   /*-----------------------------------------------------Contact-----------------------------------------------------*/
-  header .header2 .nav-Logo-Title a logoT {
+  .header .header2 .nav-Logo a img {
     height: 120px;
     width: 130px;
   }
-  header .header2 .nav-Logo-Title .navbar-brand {
+  .header .header2 .titleNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .header2 .titleNav .navbar-brand {
     color: #643d88;
-    font-size: 4rem;
+    font-size: 2.5rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5040,16 +5211,31 @@ main .img3 .surrealImage {
     transition: all 2s;
     cursor: pointer;
   }
-  header .header2 .nav-Logo-Title .navbar-brand:Hover {
+  .header .header2 .titleNav .navbar-brand:Hover {
     font-size: 3rem;
+    color: #643d88;
   }
-  header .header2 .navbar-nav {
-    gap: 1rem;
+  .header .header2 .titleNav .navbar-brand .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 0.2rem;
   }
-  header .header2 .navbar-nav .nav-item .nav-link {
+  .header .header2 .titleNav .navbar-brand .navbar-nav .nav-item .nav-link {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    color: azure;
     font-size: 2rem;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
   }
-  .mainSection {
+  .header .header2 .mainSection {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5066,11 +5252,11 @@ main .img3 .surrealImage {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .mainSection .titleContact {
+  .header .header2 .mainSection .titleContact {
     height: 500px;
     width: 400px;
   }
-  .mainSection .titleContact h1 {
+  .header .header2 .mainSection .titleContact h1 {
     font-size: 50px;
   }
 }

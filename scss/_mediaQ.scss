@@ -5,62 +5,44 @@
 
   /*Index*/
 
-  .header2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-
-    .nav-Logo-Title {
-
+  .header {
+  
+    .header2 {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
+      justify-content: center;
 
-
-      .navbar-brand {
-        color: rgb(100, 61, 136);
-        font-size: 3rem;
+      .nav-Logo {
         display: flex;
-        padding-left: 0.5rem;
-        transition: all 2s;
-        cursor: pointer;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
-        &:Hover {
-
-          font-size: 5rem;
-          color: rgb(100, 61, 136);
-
-        }
-      }
-    }
-
-    #navbarSupportedContent {
-
-      .navbar-nav {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 4rem;
-
-        .nav-item {
-          .nav-link {
-
-            justify-content: end;
-            list-style: none;
-            color: azure;
-            text-decoration: none;
-            font-size: 2.5rem;
-            transition: all 1.5s;
-
-            &:Hover {
-              color: $secondaryColor;
-            }
-
+        a {
+          img {
+            height: 130px;
+            width: 135px;
           }
         }
       }
 
+      .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        .nav-item {
+          .nav-link {
+            color: azure;
+            font-size: 2.5rem;
+            &:Hover {
+              color: $secondaryColor;
+            }
+          }
+        }
+      }
     }
   }
 
@@ -100,12 +82,7 @@
   }
 
   /*-----------------------------------------------------About-us-----------------------------------------------------*/
-  .header {
-    div {
-      padding-left: 80px;
-    }
 
-  }
 
   .main-about {
     height: 550px;
@@ -642,6 +619,29 @@
       }
     }
   }
+  /*-----------------------------------------------------HEADER TABLETS-----------------------------------------------------*/
+.header {
+  .header2 {
+    .navbar-nav {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+
+      .nav-item {
+        .nav-link {
+
+          justify-content: space-around;
+          color: azure;
+          font-size: 3rem;
+           border-bottom: 0.1rem solid #ec008c;
+           border-top: 0.1rem solid #ec008c;
+
+        }
+      }
+    }
+  }
+}
 }
 
 
@@ -675,6 +675,7 @@
   }
 
   /*-----------------------------------------------------About-us-----------------------------------------------------*/
+
   .main-about {
     .aling-text {
       .cont-h1 {
@@ -804,61 +805,75 @@
   }
 
   /*-----------------------------------------------------Contact-----------------------------------------------------*/
-  header {
+  .header {
     .header2 {
-      .nav-Logo-Title {
+      .nav-Logo {
         a {
-          logoT {
+          img {
             height: 120px;
             width: 130px;
           }
 
         }
+      }
+
+      .titleNav {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
 
         .navbar-brand {
           color: rgb(100, 61, 136);
-          font-size: 4rem;
+          font-size: 2.5rem;
           display: flex;
           padding-left: 0.5rem;
           transition: all 2s;
           cursor: pointer;
 
           &:Hover {
+
             font-size: 3rem;
+            color: rgb(100, 61, 136);
+
+          }
+
+          .navbar-nav {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 0.2rem;
+
+            .nav-item {
+              .nav-link {
+
+                justify-content: space-around;
+                color: azure;
+                font-size: 2rem;
+                transition: all 1.5s;
+              }
+            }
           }
         }
       }
 
-      .navbar-nav {
-        gap: 1rem;
+      .mainSection {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
 
-        .nav-item {
-          .nav-link {
-            font-size: 2rem;
+        .titleContact {
+          height: 500px;
+          width: 400px;
+
+          h1 {
+            font-size: 50px;
           }
-
         }
       }
 
     }
   }
-
-  .mainSection {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
-    .titleContact {
-      height: 500px;
-      width: 400px;
-
-      h1 {
-        font-size: 50px;
-      }
-    }
-  }
-
-
 }
