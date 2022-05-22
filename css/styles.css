@@ -5,35 +5,33 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
-  .header .header2 .nav-Logo {
+  .header .header2 .titleNav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  }
+  .header .header2 .titleNav .navbar-brand {
+    font-size: 2rem;
   }
   .header .header2 .nav-Logo a img {
-    height: 130px;
-    width: 135px;
+    height: 80px;
   }
   .header .header2 .navbar-nav {
     display: -webkit-box;
@@ -751,35 +749,33 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
-  .header .header2 .nav-Logo {
+  .header .header2 .titleNav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  }
+  .header .header2 .titleNav .navbar-brand {
+    font-size: 2rem;
   }
   .header .header2 .nav-Logo a img {
-    height: 130px;
-    width: 135px;
+    height: 80px;
   }
   .header .header2 .navbar-nav {
     display: -webkit-box;
@@ -1637,7 +1633,7 @@ p {
   display: block;
   padding-top: 1rem;
   bottom: 100;
-  width: 100%;
+  width: 99.5%;
   height: 7.5rem;
   background: black;
   color: white;
@@ -1686,35 +1682,33 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
-  .header .header2 .nav-Logo {
+  .header .header2 .titleNav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  }
+  .header .header2 .titleNav .navbar-brand {
+    font-size: 2rem;
   }
   .header .header2 .nav-Logo a img {
-    height: 130px;
-    width: 135px;
+    height: 80px;
   }
   .header .header2 .navbar-nav {
     display: -webkit-box;
@@ -2433,7 +2427,7 @@ p {
   display: block;
   padding-top: 1rem;
   bottom: 100;
-  width: 100%;
+  width: 99.5%;
   height: 7.5rem;
   background: black;
   color: white;
@@ -2602,35 +2596,33 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
-  .header .header2 .nav-Logo {
+  .header .header2 .titleNav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  }
+  .header .header2 .titleNav .navbar-brand {
+    font-size: 2rem;
   }
   .header .header2 .nav-Logo a img {
-    height: 130px;
-    width: 135px;
+    height: 80px;
   }
   .header .header2 .navbar-nav {
     display: -webkit-box;
@@ -3521,7 +3513,7 @@ p {
   display: block;
   padding-top: 1rem;
   bottom: 100;
-  width: 100%;
+  width: 99.5%;
   height: 7.5rem;
   background: black;
   color: white;
@@ -3570,35 +3562,33 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
-  .header .header2 .nav-Logo {
+  .header .header2 .titleNav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  }
+  .header .header2 .titleNav .navbar-brand {
+    font-size: 2rem;
   }
   .header .header2 .nav-Logo a img {
-    height: 130px;
-    width: 135px;
+    height: 80px;
   }
   .header .header2 .navbar-nav {
     display: -webkit-box;
@@ -4317,7 +4307,7 @@ p {
   display: block;
   padding-top: 1rem;
   bottom: 100;
-  width: 100%;
+  width: 99.5%;
   height: 7.5rem;
   background: black;
   color: white;
@@ -4749,35 +4739,33 @@ main .img3 .surrealImage {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
-  .header .header2 .nav-Logo {
+  .header .header2 .titleNav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  }
+  .header .header2 .titleNav .navbar-brand {
+    font-size: 2rem;
   }
   .header .header2 .nav-Logo a img {
-    height: 130px;
-    width: 135px;
+    height: 80px;
   }
   .header .header2 .navbar-nav {
     display: -webkit-box;
