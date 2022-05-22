@@ -674,11 +674,21 @@
 }
 
 .header .header2 .navbar-toggler {
-  background-color: white;
-  color: black;
+  border: 0;
 }
 
-.header .header2 .titleNav {
+.header .header2 .navbar-toggler .middle-bar {
+  margin: 5px auto;
+}
+
+.header .header2 .navbar-toggler .toggler-icon {
+  width: 30px;
+  height: 3px;
+  background-color: #87006C;
+  display: block;
+}
+
+.titleNav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -691,7 +701,7 @@
           align-items: center;
 }
 
-.header .header2 .titleNav .navbar-brand {
+.titleNav .navbar-brand {
   color: #643d88;
   font-size: 3rem;
   display: -webkit-box;
@@ -703,11 +713,11 @@
   cursor: pointer;
 }
 
-.header .header2 .titleNav .navbar-brand:Hover {
+.titleNav .navbar-brand:Hover {
   color: white;
 }
 
-.header .header2 .navbar-nav {
+.navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -720,7 +730,7 @@
   gap: 1rem;
 }
 
-.header .header2 .navbar-nav .nav-item .nav-link {
+.navbar-nav .nav-item .nav-link {
   list-style: none;
   color: azure;
   text-decoration: none;
@@ -729,7 +739,7 @@
   transition: all 1.5s;
 }
 
-.header .header2 .navbar-nav .nav-item .nav-link:Hover {
+.navbar-nav .nav-item .nav-link:Hover {
   color: #87006C;
 }
 
@@ -1409,11 +1419,21 @@
 }
 
 .header .header2 .navbar-toggler {
-  background-color: white;
-  color: black;
+  border: 0;
 }
 
-.header .header2 .titleNav {
+.header .header2 .navbar-toggler .middle-bar {
+  margin: 5px auto;
+}
+
+.header .header2 .navbar-toggler .toggler-icon {
+  width: 30px;
+  height: 3px;
+  background-color: #87006C;
+  display: block;
+}
+
+.titleNav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1426,7 +1446,7 @@
           align-items: center;
 }
 
-.header .header2 .titleNav .navbar-brand {
+.titleNav .navbar-brand {
   color: #643d88;
   font-size: 3rem;
   display: -webkit-box;
@@ -1438,11 +1458,11 @@
   cursor: pointer;
 }
 
-.header .header2 .titleNav .navbar-brand:Hover {
+.titleNav .navbar-brand:Hover {
   color: white;
 }
 
-.header .header2 .navbar-nav {
+.navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1455,7 +1475,7 @@
   gap: 1rem;
 }
 
-.header .header2 .navbar-nav .nav-item .nav-link {
+.navbar-nav .nav-item .nav-link {
   list-style: none;
   color: azure;
   text-decoration: none;
@@ -1464,7 +1484,7 @@
   transition: all 1.5s;
 }
 
-.header .header2 .navbar-nav .nav-item .nav-link:Hover {
+.navbar-nav .nav-item .nav-link:Hover {
   color: #87006C;
 }
 
@@ -2331,11 +2351,21 @@ p {
 }
 
 .header .header2 .navbar-toggler {
-  background-color: white;
-  color: black;
+  border: 0;
 }
 
-.header .header2 .titleNav {
+.header .header2 .navbar-toggler .middle-bar {
+  margin: 5px auto;
+}
+
+.header .header2 .navbar-toggler .toggler-icon {
+  width: 30px;
+  height: 3px;
+  background-color: #87006C;
+  display: block;
+}
+
+.titleNav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2348,7 +2378,7 @@ p {
           align-items: center;
 }
 
-.header .header2 .titleNav .navbar-brand {
+.titleNav .navbar-brand {
   color: #643d88;
   font-size: 3rem;
   display: -webkit-box;
@@ -2360,11 +2390,11 @@ p {
   cursor: pointer;
 }
 
-.header .header2 .titleNav .navbar-brand:Hover {
+.titleNav .navbar-brand:Hover {
   color: white;
 }
 
-.header .header2 .navbar-nav {
+.navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2377,7 +2407,7 @@ p {
   gap: 1rem;
 }
 
-.header .header2 .navbar-nav .nav-item .nav-link {
+.navbar-nav .nav-item .nav-link {
   list-style: none;
   color: azure;
   text-decoration: none;
@@ -2386,7 +2416,7 @@ p {
   transition: all 1.5s;
 }
 
-.header .header2 .navbar-nav .nav-item .nav-link:Hover {
+.navbar-nav .nav-item .nav-link:Hover {
   color: #87006C;
 }
 
@@ -3234,11 +3264,21 @@ p {
 }
 
 .header .header2 .navbar-toggler {
-  background-color: white;
-  color: black;
+  border: 0;
 }
 
-.header .header2 .titleNav {
+.header .header2 .navbar-toggler .middle-bar {
+  margin: 5px auto;
+}
+
+.header .header2 .navbar-toggler .toggler-icon {
+  width: 30px;
+  height: 3px;
+  background-color: #87006C;
+  display: block;
+}
+
+.titleNav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3251,7 +3291,7 @@ p {
           align-items: center;
 }
 
-.header .header2 .titleNav .navbar-brand {
+.titleNav .navbar-brand {
   color: #643d88;
   font-size: 3rem;
   display: -webkit-box;
@@ -3263,11 +3303,11 @@ p {
   cursor: pointer;
 }
 
-.header .header2 .titleNav .navbar-brand:Hover {
+.titleNav .navbar-brand:Hover {
   color: white;
 }
 
-.header .header2 .navbar-nav {
+.navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3280,7 +3320,7 @@ p {
   gap: 1rem;
 }
 
-.header .header2 .navbar-nav .nav-item .nav-link {
+.navbar-nav .nav-item .nav-link {
   list-style: none;
   color: azure;
   text-decoration: none;
@@ -3289,7 +3329,7 @@ p {
   transition: all 1.5s;
 }
 
-.header .header2 .navbar-nav .nav-item .nav-link:Hover {
+.navbar-nav .nav-item .nav-link:Hover {
   color: #87006C;
 }
 
@@ -4189,11 +4229,21 @@ p {
 }
 
 .header .header2 .navbar-toggler {
-  background-color: white;
-  color: black;
+  border: 0;
 }
 
-.header .header2 .titleNav {
+.header .header2 .navbar-toggler .middle-bar {
+  margin: 5px auto;
+}
+
+.header .header2 .navbar-toggler .toggler-icon {
+  width: 30px;
+  height: 3px;
+  background-color: #87006C;
+  display: block;
+}
+
+.titleNav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4206,7 +4256,7 @@ p {
           align-items: center;
 }
 
-.header .header2 .titleNav .navbar-brand {
+.titleNav .navbar-brand {
   color: #643d88;
   font-size: 3rem;
   display: -webkit-box;
@@ -4218,11 +4268,11 @@ p {
   cursor: pointer;
 }
 
-.header .header2 .titleNav .navbar-brand:Hover {
+.titleNav .navbar-brand:Hover {
   color: white;
 }
 
-.header .header2 .navbar-nav {
+.navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4235,7 +4285,7 @@ p {
   gap: 1rem;
 }
 
-.header .header2 .navbar-nav .nav-item .nav-link {
+.navbar-nav .nav-item .nav-link {
   list-style: none;
   color: azure;
   text-decoration: none;
@@ -4244,7 +4294,7 @@ p {
   transition: all 1.5s;
 }
 
-.header .header2 .navbar-nav .nav-item .nav-link:Hover {
+.navbar-nav .nav-item .nav-link:Hover {
   color: #87006C;
 }
 

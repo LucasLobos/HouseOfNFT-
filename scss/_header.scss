@@ -8,53 +8,67 @@
     .header2 {
         display: flex;
         justify-content: space-between;
-        .navbar-toggler{
-            background-color: white;
-            color: black;
-        }
-        .titleNav {
 
-            display: flex;
-            flex-direction: row;
-            align-items: center;
+        .navbar-toggler {
+            border: 0;
 
-            .navbar-brand {
-                color: rgb(100, 61, 136);
-                font-size: 3rem;
-                display: flex;
-                padding-left: 0.5rem;
-                transition: all 2s;
-                cursor: pointer;
+            .middle-bar {
+                margin: 5px auto;
+            }
+            
+            .toggler-icon {
+                width: 30px;
+                height: 3px;
+                background-color: $secondaryColor;
+                display: block;
 
-                &:Hover {
-
-                    color: white;
-
-                }
             }
         }
-       
-        .navbar-nav {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            gap: 1rem;
-            .nav-item {
-                .nav-link {
+    }
 
-                    list-style: none;
-                    color: azure;
-                    text-decoration: none;
-                    font-size: 2.5rem;
-                    transition: all 1.5s;
+}
 
-                    &:Hover {
-                        color: $secondaryColor;
-                    }
-                }
-            }
+
+.titleNav {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .navbar-brand {
+        color: rgb(100, 61, 136);
+        font-size: 3rem;
+        display: flex;
+        padding-left: 0.5rem;
+        transition: all 2s;
+        cursor: pointer;
+
+        &:Hover {
+
+            color: white;
+
         }
     }
 }
 
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
 
+    .nav-item {
+        .nav-link {
+
+            list-style: none;
+            color: azure;
+            text-decoration: none;
+            font-size: 2.5rem;
+            transition: all 1.5s;
+
+            &:Hover {
+                color: $secondaryColor;
+            }
+        }
+    }
+}
