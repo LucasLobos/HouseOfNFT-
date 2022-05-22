@@ -322,6 +322,60 @@
   .main-token .circle-world .cont-p4 .buttonC {
     font-size: 1.8rem;
   }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  .mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainSection .main-contact {
+    height: 800px;
+  }
+  .mainSection .main-contact .mainSection .titleContact {
+    width: 100%;
+    height: 200px;
+  }
+  .mainSection .main-contact .mainSection .titleContact h1 {
+    font-size: 20px;
+  }
+  .mainSection .main-contact .mainSection .form-contact {
+    height: 500px;
+    width: 350px;
+    margin-bottom: 100px;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span {
+    padding: 0.5rem;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span h2 {
+    font-size: 25px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact {
+    height: 500px;
+    width: 350px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input {
+    height: 20px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact textarea {
+    height: 130px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input[type='submit'] {
+    font-size: 25px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+  }
 }
 
 /*-----------------------------------------------------TABLETS-----------------------------------------------------*/
@@ -460,6 +514,60 @@
   .main-token .circle-world .cont-p4 .buttonC {
     font-size: 2.5rem;
   }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  .mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainSection .main-contact {
+    height: 900px;
+  }
+  .mainSection .main-contact .mainSection .titleContact {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 25px;
+  }
+  .mainSection .main-contact .mainSection .titleContact h1 {
+    font-size: 35px;
+  }
+  .mainSection .main-contact .mainSection .form-contact {
+    height: 600px;
+    width: 500px;
+    margin-bottom: 100px;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span {
+    padding: 0.5rem;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span h2 {
+    font-size: 25px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact {
+    height: 500px;
+    width: 500px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input {
+    height: 40px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact textarea {
+    height: 130px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input[type='submit'] {
+    font-size: 25px;
+    padding-bottom: 40px;
+  }
 }
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -561,6 +669,31 @@
   }
   .main-token .circle-world .cont-p4 .buttonC {
     font-size: 3rem;
+  }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  .mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainSection .titleContact {
+    height: 500px;
+    width: 400px;
+  }
+  .mainSection .titleContact h1 {
+    font-size: 50px;
   }
 }
 
@@ -888,6 +1021,60 @@
   .main-token .circle-world .cont-p4 .buttonC {
     font-size: 1.8rem;
   }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  .mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainSection .main-contact {
+    height: 800px;
+  }
+  .mainSection .main-contact .mainSection .titleContact {
+    width: 100%;
+    height: 200px;
+  }
+  .mainSection .main-contact .mainSection .titleContact h1 {
+    font-size: 20px;
+  }
+  .mainSection .main-contact .mainSection .form-contact {
+    height: 500px;
+    width: 350px;
+    margin-bottom: 100px;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span {
+    padding: 0.5rem;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span h2 {
+    font-size: 25px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact {
+    height: 500px;
+    width: 350px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input {
+    height: 20px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact textarea {
+    height: 130px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input[type='submit'] {
+    font-size: 25px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+  }
 }
 
 /*-----------------------------------------------------TABLETS-----------------------------------------------------*/
@@ -1026,6 +1213,60 @@
   .main-token .circle-world .cont-p4 .buttonC {
     font-size: 2.5rem;
   }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  .mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainSection .main-contact {
+    height: 900px;
+  }
+  .mainSection .main-contact .mainSection .titleContact {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 25px;
+  }
+  .mainSection .main-contact .mainSection .titleContact h1 {
+    font-size: 35px;
+  }
+  .mainSection .main-contact .mainSection .form-contact {
+    height: 600px;
+    width: 500px;
+    margin-bottom: 100px;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span {
+    padding: 0.5rem;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span h2 {
+    font-size: 25px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact {
+    height: 500px;
+    width: 500px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input {
+    height: 40px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact textarea {
+    height: 130px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input[type='submit'] {
+    font-size: 25px;
+    padding-bottom: 40px;
+  }
 }
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -1127,6 +1368,31 @@
   }
   .main-token .circle-world .cont-p4 .buttonC {
     font-size: 3rem;
+  }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  .mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainSection .titleContact {
+    height: 500px;
+    width: 400px;
+  }
+  .mainSection .titleContact h1 {
+    font-size: 50px;
   }
 }
 
@@ -1610,6 +1876,60 @@ p {
   .main-token .circle-world .cont-p4 .buttonC {
     font-size: 1.8rem;
   }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  .mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainSection .main-contact {
+    height: 800px;
+  }
+  .mainSection .main-contact .mainSection .titleContact {
+    width: 100%;
+    height: 200px;
+  }
+  .mainSection .main-contact .mainSection .titleContact h1 {
+    font-size: 20px;
+  }
+  .mainSection .main-contact .mainSection .form-contact {
+    height: 500px;
+    width: 350px;
+    margin-bottom: 100px;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span {
+    padding: 0.5rem;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span h2 {
+    font-size: 25px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact {
+    height: 500px;
+    width: 350px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input {
+    height: 20px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact textarea {
+    height: 130px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input[type='submit'] {
+    font-size: 25px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+  }
 }
 
 /*-----------------------------------------------------TABLETS-----------------------------------------------------*/
@@ -1748,6 +2068,60 @@ p {
   .main-token .circle-world .cont-p4 .buttonC {
     font-size: 2.5rem;
   }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  .mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainSection .main-contact {
+    height: 900px;
+  }
+  .mainSection .main-contact .mainSection .titleContact {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 25px;
+  }
+  .mainSection .main-contact .mainSection .titleContact h1 {
+    font-size: 35px;
+  }
+  .mainSection .main-contact .mainSection .form-contact {
+    height: 600px;
+    width: 500px;
+    margin-bottom: 100px;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span {
+    padding: 0.5rem;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span h2 {
+    font-size: 25px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact {
+    height: 500px;
+    width: 500px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input {
+    height: 40px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact textarea {
+    height: 130px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input[type='submit'] {
+    font-size: 25px;
+    padding-bottom: 40px;
+  }
 }
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -1849,6 +2223,31 @@ p {
   }
   .main-token .circle-world .cont-p4 .buttonC {
     font-size: 3rem;
+  }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  .mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainSection .titleContact {
+    height: 500px;
+    width: 400px;
+  }
+  .mainSection .titleContact h1 {
+    font-size: 50px;
   }
 }
 
@@ -2313,6 +2712,60 @@ p {
   .main-token .circle-world .cont-p4 .buttonC {
     font-size: 1.8rem;
   }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  .mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainSection .main-contact {
+    height: 800px;
+  }
+  .mainSection .main-contact .mainSection .titleContact {
+    width: 100%;
+    height: 200px;
+  }
+  .mainSection .main-contact .mainSection .titleContact h1 {
+    font-size: 20px;
+  }
+  .mainSection .main-contact .mainSection .form-contact {
+    height: 500px;
+    width: 350px;
+    margin-bottom: 100px;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span {
+    padding: 0.5rem;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span h2 {
+    font-size: 25px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact {
+    height: 500px;
+    width: 350px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input {
+    height: 20px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact textarea {
+    height: 130px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input[type='submit'] {
+    font-size: 25px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+  }
 }
 
 /*-----------------------------------------------------TABLETS-----------------------------------------------------*/
@@ -2451,6 +2904,60 @@ p {
   .main-token .circle-world .cont-p4 .buttonC {
     font-size: 2.5rem;
   }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  .mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainSection .main-contact {
+    height: 900px;
+  }
+  .mainSection .main-contact .mainSection .titleContact {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 25px;
+  }
+  .mainSection .main-contact .mainSection .titleContact h1 {
+    font-size: 35px;
+  }
+  .mainSection .main-contact .mainSection .form-contact {
+    height: 600px;
+    width: 500px;
+    margin-bottom: 100px;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span {
+    padding: 0.5rem;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span h2 {
+    font-size: 25px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact {
+    height: 500px;
+    width: 500px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input {
+    height: 40px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact textarea {
+    height: 130px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input[type='submit'] {
+    font-size: 25px;
+    padding-bottom: 40px;
+  }
 }
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -2552,6 +3059,31 @@ p {
   }
   .main-token .circle-world .cont-p4 .buttonC {
     font-size: 3rem;
+  }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  .mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainSection .titleContact {
+    height: 500px;
+    width: 400px;
+  }
+  .mainSection .titleContact h1 {
+    font-size: 50px;
   }
 }
 
@@ -3068,6 +3600,60 @@ p {
   .main-token .circle-world .cont-p4 .buttonC {
     font-size: 1.8rem;
   }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  .mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainSection .main-contact {
+    height: 800px;
+  }
+  .mainSection .main-contact .mainSection .titleContact {
+    width: 100%;
+    height: 200px;
+  }
+  .mainSection .main-contact .mainSection .titleContact h1 {
+    font-size: 20px;
+  }
+  .mainSection .main-contact .mainSection .form-contact {
+    height: 500px;
+    width: 350px;
+    margin-bottom: 100px;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span {
+    padding: 0.5rem;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span h2 {
+    font-size: 25px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact {
+    height: 500px;
+    width: 350px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input {
+    height: 20px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact textarea {
+    height: 130px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input[type='submit'] {
+    font-size: 25px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+  }
 }
 
 /*-----------------------------------------------------TABLETS-----------------------------------------------------*/
@@ -3206,6 +3792,60 @@ p {
   .main-token .circle-world .cont-p4 .buttonC {
     font-size: 2.5rem;
   }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  .mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainSection .main-contact {
+    height: 900px;
+  }
+  .mainSection .main-contact .mainSection .titleContact {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 25px;
+  }
+  .mainSection .main-contact .mainSection .titleContact h1 {
+    font-size: 35px;
+  }
+  .mainSection .main-contact .mainSection .form-contact {
+    height: 600px;
+    width: 500px;
+    margin-bottom: 100px;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span {
+    padding: 0.5rem;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span h2 {
+    font-size: 25px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact {
+    height: 500px;
+    width: 500px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input {
+    height: 40px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact textarea {
+    height: 130px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input[type='submit'] {
+    font-size: 25px;
+    padding-bottom: 40px;
+  }
 }
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -3307,6 +3947,31 @@ p {
   }
   .main-token .circle-world .cont-p4 .buttonC {
     font-size: 3rem;
+  }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  .mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainSection .titleContact {
+    height: 500px;
+    width: 400px;
+  }
+  .mainSection .titleContact h1 {
+    font-size: 50px;
   }
 }
 
@@ -3882,6 +4547,60 @@ main .img3 .surrealImage {
   .main-token .circle-world .cont-p4 .buttonC {
     font-size: 1.8rem;
   }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  .mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainSection .main-contact {
+    height: 800px;
+  }
+  .mainSection .main-contact .mainSection .titleContact {
+    width: 100%;
+    height: 200px;
+  }
+  .mainSection .main-contact .mainSection .titleContact h1 {
+    font-size: 20px;
+  }
+  .mainSection .main-contact .mainSection .form-contact {
+    height: 500px;
+    width: 350px;
+    margin-bottom: 100px;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span {
+    padding: 0.5rem;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span h2 {
+    font-size: 25px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact {
+    height: 500px;
+    width: 350px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input {
+    height: 20px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact textarea {
+    height: 130px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input[type='submit'] {
+    font-size: 25px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+  }
 }
 
 /*-----------------------------------------------------TABLETS-----------------------------------------------------*/
@@ -4020,6 +4739,60 @@ main .img3 .surrealImage {
   .main-token .circle-world .cont-p4 .buttonC {
     font-size: 2.5rem;
   }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  .mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainSection .main-contact {
+    height: 900px;
+  }
+  .mainSection .main-contact .mainSection .titleContact {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 25px;
+  }
+  .mainSection .main-contact .mainSection .titleContact h1 {
+    font-size: 35px;
+  }
+  .mainSection .main-contact .mainSection .form-contact {
+    height: 600px;
+    width: 500px;
+    margin-bottom: 100px;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span {
+    padding: 0.5rem;
+  }
+  .mainSection .main-contact .mainSection .form-contact header span h2 {
+    font-size: 25px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact {
+    height: 500px;
+    width: 500px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input {
+    height: 40px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact textarea {
+    height: 130px;
+  }
+  .mainSection .main-contact .mainSection .form-contact .contact input[type='submit'] {
+    font-size: 25px;
+    padding-bottom: 40px;
+  }
 }
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -4121,6 +4894,31 @@ main .img3 .surrealImage {
   }
   .main-token .circle-world .cont-p4 .buttonC {
     font-size: 3rem;
+  }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  .mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainSection .titleContact {
+    height: 500px;
+    width: 400px;
+  }
+  .mainSection .titleContact h1 {
+    font-size: 50px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

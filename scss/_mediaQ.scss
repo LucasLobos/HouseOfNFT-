@@ -184,70 +184,136 @@
 
     }
   }
-      /*-----------------------------------------------------Token Info-----------------------------------------------------*/
 
-      .main-token {
-        height: 1050px;
-        background-position-x: center;
-        background-position-y: center;
-  
-        .circle-world {
-          
-          .circle-p{
-            .circle-d1{
-              width: 240px;
-              height: 240px;
-              margin-bottom: 10px;
-              .circle-p1{
-                p{
-                  font-size: 1.5rem;
-                }
-                
-              }
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
+
+  .main-token {
+    height: 1050px;
+    background-position-x: center;
+    background-position-y: center;
+
+    .circle-world {
+
+      .circle-p {
+        .circle-d1 {
+          width: 240px;
+          height: 240px;
+          margin-bottom: 10px;
+
+          .circle-p1 {
+            p {
+              font-size: 1.5rem;
             }
-            .circle-d2{
-              width: 240px;
-              height: 240px;
-              margin-bottom: 10px;
-              .circle-p2{
-                p{
-                  font-size: 1.5rem;
-                }
-                
-              }
-            }
-            .circle-d3{
-              width: 240px;
-              height: 240px;
-              .circle-p3{
-                p{
-                  font-size: 1.5rem;
-                }
-                
-              }
-            }
-    
-          }
-          .titles {
-            h1 {
-              font-size: 1.8rem;
-              span{
-                font-size: 2rem;
-              }
-            }
-          }
-          .cont-p4{   
-            margin-right: 5px;    
-            align-items: center;    
-            .buttonC{
-              font-size: 1.8rem;
-            }
+
           }
         }
-    
-    
-    
+
+        .circle-d2 {
+          width: 240px;
+          height: 240px;
+          margin-bottom: 10px;
+
+          .circle-p2 {
+            p {
+              font-size: 1.5rem;
+            }
+
+          }
+        }
+
+        .circle-d3 {
+          width: 240px;
+          height: 240px;
+
+          .circle-p3 {
+            p {
+              font-size: 1.5rem;
+            }
+
+          }
+        }
+
       }
+
+      .titles {
+        h1 {
+          font-size: 1.8rem;
+
+          span {
+            font-size: 2rem;
+          }
+        }
+      }
+
+      .cont-p4 {
+        margin-right: 5px;
+        align-items: center;
+
+        .buttonC {
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+
+  .mainSection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    .main-contact {
+      height: 800px;
+      .mainSection {
+        .titleContact {
+          width: 100%;
+          height: 200px;
+
+          h1 {
+            font-size: 20px;
+          }
+        }
+
+        .form-contact {
+          height: 500px;
+          width: 350px;
+          margin-bottom: 100px;
+
+          header {
+            span {
+              padding: 0.5rem;
+
+              h2 {
+                font-size: 25px;
+              }
+            }
+          }
+
+          .contact {
+            height: 500px;
+            width: 350px;
+
+            input {
+              height: 20px;
+            }
+
+            textarea {
+              height: 130px;
+            }
+
+            input[type='submit'] {
+              font-size: 25px;
+              padding-bottom: 40px;
+              margin-top: 10px;
+            }
+          }
+
+        }
+      }
+    }
+  }
 }
 
 
@@ -410,49 +476,116 @@
 
     }
   }
-    /*-----------------------------------------------------Token Info-----------------------------------------------------*/
 
-    .main-token {
-      height: 900px;
-      background-position-x: center;
-      background-position-y: center;
+  /*-----------------------------------------------------Token Info-----------------------------------------------------*/
 
-      .circle-world {
-        
-        .circle-p{
-          .circle-d1{
-            width: 300px;
-            height: 300px;
-          }
-          .circle-d2{
-            width: 300px;
-            height: 300px;
-          }
-          .circle-d3{
-            width: 300px;
-            height: 300px;
-          }
-  
+  .main-token {
+    height: 900px;
+    background-position-x: center;
+    background-position-y: center;
+
+    .circle-world {
+
+      .circle-p {
+        .circle-d1 {
+          width: 300px;
+          height: 300px;
         }
-        .titles {
-          h1 {
-            font-size: 2.8rem;
-          }
+
+        .circle-d2 {
+          width: 300px;
+          height: 300px;
         }
-        .cont-p4{
-          margin-left: 20px;
-          
-          .buttonC{
-            font-size: 2.5rem;
-          }
+
+        .circle-d3 {
+          width: 300px;
+          height: 300px;
+        }
+
+      }
+
+      .titles {
+        h1 {
+          font-size: 2.8rem;
         }
       }
-  
-  
-  
+
+      .cont-p4 {
+        margin-left: 20px;
+
+        .buttonC {
+          font-size: 2.5rem;
+        }
+      }
     }
 
+
+
+  }
+
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
+
+  .mainSection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    .main-contact {
+      height: 900px;
+      .mainSection {
+        .titleContact {
+          width: 100%;
+          height: 200px;
+          margin-bottom: 25px;
+
+          h1 {
+            font-size: 35px;
+          }
+        }
+
+        .form-contact {
+          height: 600px;
+          width: 500px;
+          margin-bottom: 100px;
+
+          header {
+            span {
+              padding: 0.5rem;
+
+              h2 {
+                font-size: 25px;
+              }
+            }
+          }
+
+          .contact {
+            height: 500px;
+            width: 500px;
+
+            input {
+              height: 40px;
+            }
+
+            textarea {
+              height: 130px;
+            }
+
+            input[type='submit'] {
+              font-size: 25px;
+              padding-bottom: 40px;
+            }
+          }
+
+
+
+        }
+      }
+    }
+  }
 }
+
 
 
 /*-----------------------------------------------------LAPTOPS-----------------------------------------------------*/
@@ -575,39 +708,60 @@
 
   .main-token {
     background-position-x: center;
+
     .circle-world {
-      
-      .circle-p{
-        .circle-d1{
+
+      .circle-p {
+        .circle-d1 {
           width: 300px;
           height: 300px;
         }
-        .circle-d2{
+
+        .circle-d2 {
           width: 300px;
           height: 300px;
         }
-        .circle-d3{
+
+        .circle-d3 {
           width: 300px;
           height: 300px;
         }
 
       }
+
       .titles {
         h1 {
           font-size: 2.8rem;
         }
       }
-      .cont-p4{
+
+      .cont-p4 {
         margin-left: 20px;
-        
-        .buttonC{
+
+        .buttonC {
           font-size: 3rem;
         }
       }
     }
+  }
 
+  /*-----------------------------------------------------Contact-----------------------------------------------------*/
 
+  .mainSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 
+    .titleContact {
+      height: 500px;
+      width: 400px;
+
+      h1 {
+        font-size: 50px;
+      }
+    }
   }
 
 
