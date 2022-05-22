@@ -4,11 +4,64 @@
 @media(min-width:365px) and (max-width:767px) {
 
   /*Index*/
-  .header {
-    div {
-      padding-left: 100px;
+
+  .header2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    .nav-Logo-Title {
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+
+      .navbar-brand {
+        color: rgb(100, 61, 136);
+        font-size: 3rem;
+        display: flex;
+        padding-left: 0.5rem;
+        transition: all 2s;
+        cursor: pointer;
+
+        &:Hover {
+
+          font-size: 5rem;
+          color: rgb(100, 61, 136);
+
+        }
+      }
     }
 
+    #navbarSupportedContent {
+
+      .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 4rem;
+
+        .nav-item {
+          .nav-link {
+
+            justify-content: end;
+            list-style: none;
+            color: azure;
+            text-decoration: none;
+            font-size: 2.5rem;
+            transition: all 1.5s;
+
+            &:Hover {
+              color: $secondaryColor;
+            }
+
+          }
+        }
+      }
+
+    }
   }
 
   .main {
@@ -187,6 +240,8 @@
 
   /*-----------------------------------------------------Token Info-----------------------------------------------------*/
 
+
+
   .main-token {
     height: 1050px;
     background-position-x: center;
@@ -255,6 +310,7 @@
       }
     }
   }
+
   /*-----------------------------------------------------Contact-----------------------------------------------------*/
 
   .mainSection {
@@ -266,6 +322,7 @@
 
     .main-contact {
       height: 800px;
+
       .mainSection {
         .titleContact {
           width: 100%;
@@ -534,6 +591,7 @@
 
     .main-contact {
       height: 900px;
+
       .mainSection {
         .titleContact {
           width: 100%;
@@ -746,6 +804,44 @@
   }
 
   /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  header {
+    .header2 {
+      .nav-Logo-Title {
+        a {
+          logoT {
+            height: 120px;
+            width: 130px;
+          }
+
+        }
+
+        .navbar-brand {
+          color: rgb(100, 61, 136);
+          font-size: 4rem;
+          display: flex;
+          padding-left: 0.5rem;
+          transition: all 2s;
+          cursor: pointer;
+
+          &:Hover {
+            font-size: 3rem;
+          }
+        }
+      }
+
+      .navbar-nav {
+        gap: 1rem;
+
+        .nav-item {
+          .nav-link {
+            font-size: 2rem;
+          }
+
+        }
+      }
+
+    }
+  }
 
   .mainSection {
     display: flex;

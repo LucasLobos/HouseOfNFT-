@@ -3,100 +3,20 @@
   border-bottom: 2px solid #87006C;
 }
 
-.header .navbar-toggler {
-  width: 20px;
-  height: 20px;
-  position: relative;
-  -webkit-transition: .5 ease-in-out;
-  transition: .5 ease-in-out;
-}
-
-.header .navbar-toggler,
-.header .navbar-toggler:focus,
-.header .navbar-toggler:active,
-.header .navbar-toggler-icon:focus {
-  outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border: 0;
-}
-
-.header .navbar-toggler:span {
-  margin: 0;
-  padding: 0;
-}
-
-.header .toggler-icon {
-  display: block;
-  position: absolute;
-  height: 3px;
-  width: 100%;
-  background: #d3531a;
-  border-radius: 1px;
-  opacity: 1;
-  left: 0;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: .25 ease-in-out;
-  transition: .25 ease-in-out;
-}
-
-.header .middle-bar {
-  margin-top: 0px;
-}
-
-.header .navbar-toggler .top-bar {
-  margin-top: 0px;
-  -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
-}
-
-.header .navbar-toggler .middle-bar {
-  opacity: 0;
-  filter: alpha(opacity=0);
-}
-
-.header .navbar-toggler .bottom-bar {
-  margin-top: 0px;
-  -webkit-transform: rotate(-135deg);
-          transform: rotate(-135deg);
-}
-
-.header .navbar-toggler.collapsed .top-bar {
-  margin-top: -20px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-}
-
-.header .navbar-toggler.collapsed .middle-bar {
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-
-.header .navbar-toggler.collapsed .bottom-bar {
-  margin-top: 20px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-}
-
-.header .navbar-brand {
-  color: #643d88;
-  font-size: 3rem;
+.header .header2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 0.5rem;
-  -webkit-transition: all 2s;
-  transition: all 2s;
-  cursor: pointer;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.header .navbar-brand:Hover {
-  font-size: 5rem;
-  color: #643d88;
+.header .header2 .navbar-toggler {
+  background-color: white;
 }
 
-.header .nav-Logo-Title {
+.header .header2 .nav-Logo-Title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -109,19 +29,24 @@
           align-items: center;
 }
 
-.header .navbar-ul {
+.header .header2 .nav-Logo-Title .navbar-brand {
+  color: #643d88;
+  font-size: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  padding-left: 0.5rem;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  cursor: pointer;
 }
 
-.header .navbar-ul .navbar-nav {
+.header .header2 .nav-Logo-Title .navbar-brand:Hover {
+  font-size: 5rem;
+  color: #643d88;
+}
+
+.header .header2 .navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,7 +59,7 @@
   gap: 4rem;
 }
 
-.header .navbar-ul .navbar-nav li a {
+.header .header2 .navbar-nav .nav-item .nav-link {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
@@ -146,15 +71,79 @@
   transition: all 1.5s;
 }
 
-.header .navbar-ul .navbar-nav li a:Hover {
+.header .header2 .navbar-nav .nav-item .nav-link:Hover {
   color: #87006C;
 }
 
 /*Cel*/
 @media (min-width: 365px) and (max-width: 767px) {
   /*Index*/
-  .header div {
-    padding-left: 100px;
+  .header2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .header2 .nav-Logo-Title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header2 .nav-Logo-Title .navbar-brand {
+    color: #643d88;
+    font-size: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0.5rem;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+    cursor: pointer;
+  }
+  .header2 .nav-Logo-Title .navbar-brand:Hover {
+    font-size: 5rem;
+    color: #643d88;
+  }
+  .header2 #navbarSupportedContent .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 4rem;
+  }
+  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    list-style: none;
+    color: azure;
+    text-decoration: none;
+    font-size: 2.5rem;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
+  }
+  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link:Hover {
+    color: #87006C;
   }
   .main .img1 .astroImage {
     height: 150px;
@@ -671,6 +660,30 @@
     font-size: 3rem;
   }
   /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  header .header2 .nav-Logo-Title a logoT {
+    height: 120px;
+    width: 130px;
+  }
+  header .header2 .nav-Logo-Title .navbar-brand {
+    color: #643d88;
+    font-size: 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0.5rem;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+    cursor: pointer;
+  }
+  header .header2 .nav-Logo-Title .navbar-brand:Hover {
+    font-size: 3rem;
+  }
+  header .header2 .navbar-nav {
+    gap: 1rem;
+  }
+  header .header2 .navbar-nav .nav-item .nav-link {
+    font-size: 2rem;
+  }
   .mainSection {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -702,100 +715,20 @@
   border-bottom: 2px solid #87006C;
 }
 
-.header .navbar-toggler {
-  width: 20px;
-  height: 20px;
-  position: relative;
-  -webkit-transition: .5 ease-in-out;
-  transition: .5 ease-in-out;
-}
-
-.header .navbar-toggler,
-.header .navbar-toggler:focus,
-.header .navbar-toggler:active,
-.header .navbar-toggler-icon:focus {
-  outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border: 0;
-}
-
-.header .navbar-toggler:span {
-  margin: 0;
-  padding: 0;
-}
-
-.header .toggler-icon {
-  display: block;
-  position: absolute;
-  height: 3px;
-  width: 100%;
-  background: #d3531a;
-  border-radius: 1px;
-  opacity: 1;
-  left: 0;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: .25 ease-in-out;
-  transition: .25 ease-in-out;
-}
-
-.header .middle-bar {
-  margin-top: 0px;
-}
-
-.header .navbar-toggler .top-bar {
-  margin-top: 0px;
-  -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
-}
-
-.header .navbar-toggler .middle-bar {
-  opacity: 0;
-  filter: alpha(opacity=0);
-}
-
-.header .navbar-toggler .bottom-bar {
-  margin-top: 0px;
-  -webkit-transform: rotate(-135deg);
-          transform: rotate(-135deg);
-}
-
-.header .navbar-toggler.collapsed .top-bar {
-  margin-top: -20px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-}
-
-.header .navbar-toggler.collapsed .middle-bar {
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-
-.header .navbar-toggler.collapsed .bottom-bar {
-  margin-top: 20px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-}
-
-.header .navbar-brand {
-  color: #643d88;
-  font-size: 3rem;
+.header .header2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 0.5rem;
-  -webkit-transition: all 2s;
-  transition: all 2s;
-  cursor: pointer;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.header .navbar-brand:Hover {
-  font-size: 5rem;
-  color: #643d88;
+.header .header2 .navbar-toggler {
+  background-color: white;
 }
 
-.header .nav-Logo-Title {
+.header .header2 .nav-Logo-Title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -808,19 +741,24 @@
           align-items: center;
 }
 
-.header .navbar-ul {
+.header .header2 .nav-Logo-Title .navbar-brand {
+  color: #643d88;
+  font-size: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  padding-left: 0.5rem;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  cursor: pointer;
 }
 
-.header .navbar-ul .navbar-nav {
+.header .header2 .nav-Logo-Title .navbar-brand:Hover {
+  font-size: 5rem;
+  color: #643d88;
+}
+
+.header .header2 .navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -833,7 +771,7 @@
   gap: 4rem;
 }
 
-.header .navbar-ul .navbar-nav li a {
+.header .header2 .navbar-nav .nav-item .nav-link {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
@@ -845,15 +783,79 @@
   transition: all 1.5s;
 }
 
-.header .navbar-ul .navbar-nav li a:Hover {
+.header .header2 .navbar-nav .nav-item .nav-link:Hover {
   color: #87006C;
 }
 
 /*Cel*/
 @media (min-width: 365px) and (max-width: 767px) {
   /*Index*/
-  .header div {
-    padding-left: 100px;
+  .header2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .header2 .nav-Logo-Title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header2 .nav-Logo-Title .navbar-brand {
+    color: #643d88;
+    font-size: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0.5rem;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+    cursor: pointer;
+  }
+  .header2 .nav-Logo-Title .navbar-brand:Hover {
+    font-size: 5rem;
+    color: #643d88;
+  }
+  .header2 #navbarSupportedContent .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 4rem;
+  }
+  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    list-style: none;
+    color: azure;
+    text-decoration: none;
+    font-size: 2.5rem;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
+  }
+  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link:Hover {
+    color: #87006C;
   }
   .main .img1 .astroImage {
     height: 150px;
@@ -1370,6 +1372,30 @@
     font-size: 3rem;
   }
   /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  header .header2 .nav-Logo-Title a logoT {
+    height: 120px;
+    width: 130px;
+  }
+  header .header2 .nav-Logo-Title .navbar-brand {
+    color: #643d88;
+    font-size: 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0.5rem;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+    cursor: pointer;
+  }
+  header .header2 .nav-Logo-Title .navbar-brand:Hover {
+    font-size: 3rem;
+  }
+  header .header2 .navbar-nav {
+    gap: 1rem;
+  }
+  header .header2 .navbar-nav .nav-item .nav-link {
+    font-size: 2rem;
+  }
   .mainSection {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1557,100 +1583,20 @@ p {
   border-bottom: 2px solid #87006C;
 }
 
-.header .navbar-toggler {
-  width: 20px;
-  height: 20px;
-  position: relative;
-  -webkit-transition: .5 ease-in-out;
-  transition: .5 ease-in-out;
-}
-
-.header .navbar-toggler,
-.header .navbar-toggler:focus,
-.header .navbar-toggler:active,
-.header .navbar-toggler-icon:focus {
-  outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border: 0;
-}
-
-.header .navbar-toggler:span {
-  margin: 0;
-  padding: 0;
-}
-
-.header .toggler-icon {
-  display: block;
-  position: absolute;
-  height: 3px;
-  width: 100%;
-  background: #d3531a;
-  border-radius: 1px;
-  opacity: 1;
-  left: 0;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: .25 ease-in-out;
-  transition: .25 ease-in-out;
-}
-
-.header .middle-bar {
-  margin-top: 0px;
-}
-
-.header .navbar-toggler .top-bar {
-  margin-top: 0px;
-  -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
-}
-
-.header .navbar-toggler .middle-bar {
-  opacity: 0;
-  filter: alpha(opacity=0);
-}
-
-.header .navbar-toggler .bottom-bar {
-  margin-top: 0px;
-  -webkit-transform: rotate(-135deg);
-          transform: rotate(-135deg);
-}
-
-.header .navbar-toggler.collapsed .top-bar {
-  margin-top: -20px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-}
-
-.header .navbar-toggler.collapsed .middle-bar {
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-
-.header .navbar-toggler.collapsed .bottom-bar {
-  margin-top: 20px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-}
-
-.header .navbar-brand {
-  color: #643d88;
-  font-size: 3rem;
+.header .header2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 0.5rem;
-  -webkit-transition: all 2s;
-  transition: all 2s;
-  cursor: pointer;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.header .navbar-brand:Hover {
-  font-size: 5rem;
-  color: #643d88;
+.header .header2 .navbar-toggler {
+  background-color: white;
 }
 
-.header .nav-Logo-Title {
+.header .header2 .nav-Logo-Title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1663,19 +1609,24 @@ p {
           align-items: center;
 }
 
-.header .navbar-ul {
+.header .header2 .nav-Logo-Title .navbar-brand {
+  color: #643d88;
+  font-size: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  padding-left: 0.5rem;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  cursor: pointer;
 }
 
-.header .navbar-ul .navbar-nav {
+.header .header2 .nav-Logo-Title .navbar-brand:Hover {
+  font-size: 5rem;
+  color: #643d88;
+}
+
+.header .header2 .navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1688,7 +1639,7 @@ p {
   gap: 4rem;
 }
 
-.header .navbar-ul .navbar-nav li a {
+.header .header2 .navbar-nav .nav-item .nav-link {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
@@ -1700,15 +1651,79 @@ p {
   transition: all 1.5s;
 }
 
-.header .navbar-ul .navbar-nav li a:Hover {
+.header .header2 .navbar-nav .nav-item .nav-link:Hover {
   color: #87006C;
 }
 
 /*Cel*/
 @media (min-width: 365px) and (max-width: 767px) {
   /*Index*/
-  .header div {
-    padding-left: 100px;
+  .header2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .header2 .nav-Logo-Title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header2 .nav-Logo-Title .navbar-brand {
+    color: #643d88;
+    font-size: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0.5rem;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+    cursor: pointer;
+  }
+  .header2 .nav-Logo-Title .navbar-brand:Hover {
+    font-size: 5rem;
+    color: #643d88;
+  }
+  .header2 #navbarSupportedContent .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 4rem;
+  }
+  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    list-style: none;
+    color: azure;
+    text-decoration: none;
+    font-size: 2.5rem;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
+  }
+  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link:Hover {
+    color: #87006C;
   }
   .main .img1 .astroImage {
     height: 150px;
@@ -2225,6 +2240,30 @@ p {
     font-size: 3rem;
   }
   /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  header .header2 .nav-Logo-Title a logoT {
+    height: 120px;
+    width: 130px;
+  }
+  header .header2 .nav-Logo-Title .navbar-brand {
+    color: #643d88;
+    font-size: 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0.5rem;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+    cursor: pointer;
+  }
+  header .header2 .nav-Logo-Title .navbar-brand:Hover {
+    font-size: 3rem;
+  }
+  header .header2 .navbar-nav {
+    gap: 1rem;
+  }
+  header .header2 .navbar-nav .nav-item .nav-link {
+    font-size: 2rem;
+  }
   .mainSection {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2393,100 +2432,20 @@ p {
   border-bottom: 2px solid #87006C;
 }
 
-.header .navbar-toggler {
-  width: 20px;
-  height: 20px;
-  position: relative;
-  -webkit-transition: .5 ease-in-out;
-  transition: .5 ease-in-out;
-}
-
-.header .navbar-toggler,
-.header .navbar-toggler:focus,
-.header .navbar-toggler:active,
-.header .navbar-toggler-icon:focus {
-  outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border: 0;
-}
-
-.header .navbar-toggler:span {
-  margin: 0;
-  padding: 0;
-}
-
-.header .toggler-icon {
-  display: block;
-  position: absolute;
-  height: 3px;
-  width: 100%;
-  background: #d3531a;
-  border-radius: 1px;
-  opacity: 1;
-  left: 0;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: .25 ease-in-out;
-  transition: .25 ease-in-out;
-}
-
-.header .middle-bar {
-  margin-top: 0px;
-}
-
-.header .navbar-toggler .top-bar {
-  margin-top: 0px;
-  -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
-}
-
-.header .navbar-toggler .middle-bar {
-  opacity: 0;
-  filter: alpha(opacity=0);
-}
-
-.header .navbar-toggler .bottom-bar {
-  margin-top: 0px;
-  -webkit-transform: rotate(-135deg);
-          transform: rotate(-135deg);
-}
-
-.header .navbar-toggler.collapsed .top-bar {
-  margin-top: -20px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-}
-
-.header .navbar-toggler.collapsed .middle-bar {
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-
-.header .navbar-toggler.collapsed .bottom-bar {
-  margin-top: 20px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-}
-
-.header .navbar-brand {
-  color: #643d88;
-  font-size: 3rem;
+.header .header2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 0.5rem;
-  -webkit-transition: all 2s;
-  transition: all 2s;
-  cursor: pointer;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.header .navbar-brand:Hover {
-  font-size: 5rem;
-  color: #643d88;
+.header .header2 .navbar-toggler {
+  background-color: white;
 }
 
-.header .nav-Logo-Title {
+.header .header2 .nav-Logo-Title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2499,19 +2458,24 @@ p {
           align-items: center;
 }
 
-.header .navbar-ul {
+.header .header2 .nav-Logo-Title .navbar-brand {
+  color: #643d88;
+  font-size: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  padding-left: 0.5rem;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  cursor: pointer;
 }
 
-.header .navbar-ul .navbar-nav {
+.header .header2 .nav-Logo-Title .navbar-brand:Hover {
+  font-size: 5rem;
+  color: #643d88;
+}
+
+.header .header2 .navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2524,7 +2488,7 @@ p {
   gap: 4rem;
 }
 
-.header .navbar-ul .navbar-nav li a {
+.header .header2 .navbar-nav .nav-item .nav-link {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
@@ -2536,15 +2500,79 @@ p {
   transition: all 1.5s;
 }
 
-.header .navbar-ul .navbar-nav li a:Hover {
+.header .header2 .navbar-nav .nav-item .nav-link:Hover {
   color: #87006C;
 }
 
 /*Cel*/
 @media (min-width: 365px) and (max-width: 767px) {
   /*Index*/
-  .header div {
-    padding-left: 100px;
+  .header2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .header2 .nav-Logo-Title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header2 .nav-Logo-Title .navbar-brand {
+    color: #643d88;
+    font-size: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0.5rem;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+    cursor: pointer;
+  }
+  .header2 .nav-Logo-Title .navbar-brand:Hover {
+    font-size: 5rem;
+    color: #643d88;
+  }
+  .header2 #navbarSupportedContent .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 4rem;
+  }
+  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    list-style: none;
+    color: azure;
+    text-decoration: none;
+    font-size: 2.5rem;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
+  }
+  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link:Hover {
+    color: #87006C;
   }
   .main .img1 .astroImage {
     height: 150px;
@@ -3061,6 +3089,30 @@ p {
     font-size: 3rem;
   }
   /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  header .header2 .nav-Logo-Title a logoT {
+    height: 120px;
+    width: 130px;
+  }
+  header .header2 .nav-Logo-Title .navbar-brand {
+    color: #643d88;
+    font-size: 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0.5rem;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+    cursor: pointer;
+  }
+  header .header2 .nav-Logo-Title .navbar-brand:Hover {
+    font-size: 3rem;
+  }
+  header .header2 .navbar-nav {
+    gap: 1rem;
+  }
+  header .header2 .navbar-nav .nav-item .nav-link {
+    font-size: 2rem;
+  }
   .mainSection {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3281,100 +3333,20 @@ p {
   border-bottom: 2px solid #87006C;
 }
 
-.header .navbar-toggler {
-  width: 20px;
-  height: 20px;
-  position: relative;
-  -webkit-transition: .5 ease-in-out;
-  transition: .5 ease-in-out;
-}
-
-.header .navbar-toggler,
-.header .navbar-toggler:focus,
-.header .navbar-toggler:active,
-.header .navbar-toggler-icon:focus {
-  outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border: 0;
-}
-
-.header .navbar-toggler:span {
-  margin: 0;
-  padding: 0;
-}
-
-.header .toggler-icon {
-  display: block;
-  position: absolute;
-  height: 3px;
-  width: 100%;
-  background: #d3531a;
-  border-radius: 1px;
-  opacity: 1;
-  left: 0;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: .25 ease-in-out;
-  transition: .25 ease-in-out;
-}
-
-.header .middle-bar {
-  margin-top: 0px;
-}
-
-.header .navbar-toggler .top-bar {
-  margin-top: 0px;
-  -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
-}
-
-.header .navbar-toggler .middle-bar {
-  opacity: 0;
-  filter: alpha(opacity=0);
-}
-
-.header .navbar-toggler .bottom-bar {
-  margin-top: 0px;
-  -webkit-transform: rotate(-135deg);
-          transform: rotate(-135deg);
-}
-
-.header .navbar-toggler.collapsed .top-bar {
-  margin-top: -20px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-}
-
-.header .navbar-toggler.collapsed .middle-bar {
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-
-.header .navbar-toggler.collapsed .bottom-bar {
-  margin-top: 20px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-}
-
-.header .navbar-brand {
-  color: #643d88;
-  font-size: 3rem;
+.header .header2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 0.5rem;
-  -webkit-transition: all 2s;
-  transition: all 2s;
-  cursor: pointer;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.header .navbar-brand:Hover {
-  font-size: 5rem;
-  color: #643d88;
+.header .header2 .navbar-toggler {
+  background-color: white;
 }
 
-.header .nav-Logo-Title {
+.header .header2 .nav-Logo-Title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3387,19 +3359,24 @@ p {
           align-items: center;
 }
 
-.header .navbar-ul {
+.header .header2 .nav-Logo-Title .navbar-brand {
+  color: #643d88;
+  font-size: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  padding-left: 0.5rem;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  cursor: pointer;
 }
 
-.header .navbar-ul .navbar-nav {
+.header .header2 .nav-Logo-Title .navbar-brand:Hover {
+  font-size: 5rem;
+  color: #643d88;
+}
+
+.header .header2 .navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3412,7 +3389,7 @@ p {
   gap: 4rem;
 }
 
-.header .navbar-ul .navbar-nav li a {
+.header .header2 .navbar-nav .nav-item .nav-link {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
@@ -3424,15 +3401,79 @@ p {
   transition: all 1.5s;
 }
 
-.header .navbar-ul .navbar-nav li a:Hover {
+.header .header2 .navbar-nav .nav-item .nav-link:Hover {
   color: #87006C;
 }
 
 /*Cel*/
 @media (min-width: 365px) and (max-width: 767px) {
   /*Index*/
-  .header div {
-    padding-left: 100px;
+  .header2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .header2 .nav-Logo-Title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header2 .nav-Logo-Title .navbar-brand {
+    color: #643d88;
+    font-size: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0.5rem;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+    cursor: pointer;
+  }
+  .header2 .nav-Logo-Title .navbar-brand:Hover {
+    font-size: 5rem;
+    color: #643d88;
+  }
+  .header2 #navbarSupportedContent .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 4rem;
+  }
+  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    list-style: none;
+    color: azure;
+    text-decoration: none;
+    font-size: 2.5rem;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
+  }
+  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link:Hover {
+    color: #87006C;
   }
   .main .img1 .astroImage {
     height: 150px;
@@ -3949,6 +3990,30 @@ p {
     font-size: 3rem;
   }
   /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  header .header2 .nav-Logo-Title a logoT {
+    height: 120px;
+    width: 130px;
+  }
+  header .header2 .nav-Logo-Title .navbar-brand {
+    color: #643d88;
+    font-size: 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0.5rem;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+    cursor: pointer;
+  }
+  header .header2 .nav-Logo-Title .navbar-brand:Hover {
+    font-size: 3rem;
+  }
+  header .header2 .navbar-nav {
+    gap: 1rem;
+  }
+  header .header2 .navbar-nav .nav-item .nav-link {
+    font-size: 2rem;
+  }
   .mainSection {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4378,8 +4443,72 @@ main .img3 .surrealImage {
 /*Cel*/
 @media (min-width: 365px) and (max-width: 767px) {
   /*Index*/
-  .header div {
-    padding-left: 100px;
+  .header2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .header2 .nav-Logo-Title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header2 .nav-Logo-Title .navbar-brand {
+    color: #643d88;
+    font-size: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0.5rem;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+    cursor: pointer;
+  }
+  .header2 .nav-Logo-Title .navbar-brand:Hover {
+    font-size: 5rem;
+    color: #643d88;
+  }
+  .header2 #navbarSupportedContent .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 4rem;
+  }
+  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    list-style: none;
+    color: azure;
+    text-decoration: none;
+    font-size: 2.5rem;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
+  }
+  .header2 #navbarSupportedContent .navbar-nav .nav-item .nav-link:Hover {
+    color: #87006C;
   }
   .main .img1 .astroImage {
     height: 150px;
@@ -4896,6 +5025,30 @@ main .img3 .surrealImage {
     font-size: 3rem;
   }
   /*-----------------------------------------------------Contact-----------------------------------------------------*/
+  header .header2 .nav-Logo-Title a logoT {
+    height: 120px;
+    width: 130px;
+  }
+  header .header2 .nav-Logo-Title .navbar-brand {
+    color: #643d88;
+    font-size: 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0.5rem;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+    cursor: pointer;
+  }
+  header .header2 .nav-Logo-Title .navbar-brand:Hover {
+    font-size: 3rem;
+  }
+  header .header2 .navbar-nav {
+    gap: 1rem;
+  }
+  header .header2 .navbar-nav .nav-item .nav-link {
+    font-size: 2rem;
+  }
   .mainSection {
     display: -webkit-box;
     display: -ms-flexbox;
