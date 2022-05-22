@@ -726,9 +726,6 @@
 }
 
 .header .header2 .navbar-nav .nav-item .nav-link {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
   list-style: none;
   color: azure;
   text-decoration: none;
@@ -1469,9 +1466,6 @@
 }
 
 .header .header2 .navbar-nav .nav-item .nav-link {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
   list-style: none;
   color: azure;
   text-decoration: none;
@@ -1635,9 +1629,40 @@ p {
   color: white;
 }
 
-.footer img {
+.footer .footerImg .icons1 {
   height: 35px;
   width: 35px;
+}
+
+.footer .footerImg .icons1:Hover {
+  background-color: #4267B2;
+}
+
+.footer .footerImg .icons2 {
+  height: 35px;
+  width: 35px;
+}
+
+.footer .footerImg .icons2:Hover {
+  background-color: #FFA500;
+}
+
+.footer .footerImg .icons3 {
+  height: 35px;
+  width: 35px;
+}
+
+.footer .footerImg .icons3:Hover {
+  background-color: #8a3ab9;
+}
+
+.footer .footerImg .icons4 {
+  height: 35px;
+  width: 35px;
+}
+
+.footer .footerImg .icons4:Hover {
+  background-color: #00acee;
 }
 
 /*Cel*/
@@ -2368,9 +2393,6 @@ p {
 }
 
 .header .header2 .navbar-nav .nav-item .nav-link {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
   list-style: none;
   color: azure;
   text-decoration: none;
@@ -2395,9 +2417,40 @@ p {
   color: white;
 }
 
-.footer img {
+.footer .footerImg .icons1 {
   height: 35px;
   width: 35px;
+}
+
+.footer .footerImg .icons1:Hover {
+  background-color: #4267B2;
+}
+
+.footer .footerImg .icons2 {
+  height: 35px;
+  width: 35px;
+}
+
+.footer .footerImg .icons2:Hover {
+  background-color: #FFA500;
+}
+
+.footer .footerImg .icons3 {
+  height: 35px;
+  width: 35px;
+}
+
+.footer .footerImg .icons3:Hover {
+  background-color: #8a3ab9;
+}
+
+.footer .footerImg .icons4 {
+  height: 35px;
+  width: 35px;
+}
+
+.footer .footerImg .icons4:Hover {
+  background-color: #00acee;
 }
 
 .main-contact {
@@ -3248,9 +3301,6 @@ p {
 }
 
 .header .header2 .navbar-nav .nav-item .nav-link {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
   list-style: none;
   color: azure;
   text-decoration: none;
@@ -3447,9 +3497,40 @@ p {
   color: white;
 }
 
-.footer img {
+.footer .footerImg .icons1 {
   height: 35px;
   width: 35px;
+}
+
+.footer .footerImg .icons1:Hover {
+  background-color: #4267B2;
+}
+
+.footer .footerImg .icons2 {
+  height: 35px;
+  width: 35px;
+}
+
+.footer .footerImg .icons2:Hover {
+  background-color: #FFA500;
+}
+
+.footer .footerImg .icons3 {
+  height: 35px;
+  width: 35px;
+}
+
+.footer .footerImg .icons3:Hover {
+  background-color: #8a3ab9;
+}
+
+.footer .footerImg .icons4 {
+  height: 35px;
+  width: 35px;
+}
+
+.footer .footerImg .icons4:Hover {
+  background-color: #00acee;
 }
 
 /*Cel*/
@@ -4180,9 +4261,6 @@ p {
 }
 
 .header .header2 .navbar-nav .nav-item .nav-link {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
   list-style: none;
   color: azure;
   text-decoration: none;
@@ -4207,9 +4285,40 @@ p {
   color: white;
 }
 
-.footer img {
+.footer .footerImg .icons1 {
   height: 35px;
   width: 35px;
+}
+
+.footer .footerImg .icons1:Hover {
+  background-color: #4267B2;
+}
+
+.footer .footerImg .icons2 {
+  height: 35px;
+  width: 35px;
+}
+
+.footer .footerImg .icons2:Hover {
+  background-color: #FFA500;
+}
+
+.footer .footerImg .icons3 {
+  height: 35px;
+  width: 35px;
+}
+
+.footer .footerImg .icons3:Hover {
+  background-color: #8a3ab9;
+}
+
+.footer .footerImg .icons4 {
+  height: 35px;
+  width: 35px;
+}
+
+.footer .footerImg .icons4:Hover {
+  background-color: #00acee;
 }
 
 * {
