@@ -10,6 +10,7 @@
         justify-content: space-between;
         .navbar-toggler{
             background-color: white;
+            color: black;
         }
         .titleNav {
 
@@ -27,8 +28,7 @@
 
                 &:Hover {
 
-                    font-size: 5rem;
-                    color: rgb(100, 61, 136);
+                    color: white;
 
                 }
             }

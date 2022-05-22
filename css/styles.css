@@ -58,11 +58,6 @@
     height: 150px;
     margin-bottom: 20px;
   }
-  .main .img2 {
-    /*  .womanImage2 {
-        display: none;
-      } */
-  }
   .main .img2 a {
     height: 40px;
     width: 100px;
@@ -680,6 +675,7 @@
 
 .header .header2 .navbar-toggler {
   background-color: white;
+  color: black;
 }
 
 .header .header2 .titleNav {
@@ -708,8 +704,7 @@
 }
 
 .header .header2 .titleNav .navbar-brand:Hover {
-  font-size: 5rem;
-  color: #643d88;
+  color: white;
 }
 
 .header .header2 .navbar-nav {
@@ -798,11 +793,6 @@
     height: 150px;
     margin-bottom: 20px;
   }
-  .main .img2 {
-    /*  .womanImage2 {
-        display: none;
-      } */
-  }
   .main .img2 a {
     height: 40px;
     width: 100px;
@@ -1420,6 +1410,7 @@
 
 .header .header2 .navbar-toggler {
   background-color: white;
+  color: black;
 }
 
 .header .header2 .titleNav {
@@ -1448,8 +1439,7 @@
 }
 
 .header .header2 .titleNav .navbar-brand:Hover {
-  font-size: 5rem;
-  color: #643d88;
+  color: white;
 }
 
 .header .header2 .navbar-nav {
@@ -1725,11 +1715,6 @@ p {
     height: 150px;
     margin-bottom: 20px;
   }
-  .main .img2 {
-    /*  .womanImage2 {
-        display: none;
-      } */
-  }
   .main .img2 a {
     height: 40px;
     width: 100px;
@@ -2347,6 +2332,7 @@ p {
 
 .header .header2 .navbar-toggler {
   background-color: white;
+  color: black;
 }
 
 .header .header2 .titleNav {
@@ -2375,8 +2361,7 @@ p {
 }
 
 .header .header2 .titleNav .navbar-brand:Hover {
-  font-size: 5rem;
-  color: #643d88;
+  color: white;
 }
 
 .header .header2 .navbar-nav {
@@ -2633,11 +2618,6 @@ p {
     height: 150px;
     margin-bottom: 20px;
   }
-  .main .img2 {
-    /*  .womanImage2 {
-        display: none;
-      } */
-  }
   .main .img2 a {
     height: 40px;
     width: 100px;
@@ -3255,6 +3235,7 @@ p {
 
 .header .header2 .navbar-toggler {
   background-color: white;
+  color: black;
 }
 
 .header .header2 .titleNav {
@@ -3283,8 +3264,7 @@ p {
 }
 
 .header .header2 .titleNav .navbar-brand:Hover {
-  font-size: 5rem;
-  color: #643d88;
+  color: white;
 }
 
 .header .header2 .navbar-nav {
@@ -3593,11 +3573,6 @@ p {
     height: 150px;
     margin-bottom: 20px;
   }
-  .main .img2 {
-    /*  .womanImage2 {
-        display: none;
-      } */
-  }
   .main .img2 a {
     height: 40px;
     width: 100px;
@@ -4215,6 +4190,7 @@ p {
 
 .header .header2 .navbar-toggler {
   background-color: white;
+  color: black;
 }
 
 .header .header2 .titleNav {
@@ -4243,8 +4219,7 @@ p {
 }
 
 .header .header2 .titleNav .navbar-brand:Hover {
-  font-size: 5rem;
-  color: #643d88;
+  color: white;
 }
 
 .header .header2 .navbar-nav {
@@ -4763,11 +4738,6 @@ main .img3 .surrealImage {
   .main .img1 .astroImage {
     height: 150px;
     margin-bottom: 20px;
-  }
-  .main .img2 {
-    /*  .womanImage2 {
-        display: none;
-      } */
   }
   .main .img2 a {
     height: 40px;
