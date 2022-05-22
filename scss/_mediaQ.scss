@@ -6,7 +6,7 @@
   /*Index*/
 
   .header {
-
+  
     .header2 {
       display: flex;
       flex-direction: column;
@@ -37,7 +37,6 @@
           .nav-link {
             color: azure;
             font-size: 2.5rem;
-
             &:Hover {
               color: $secondaryColor;
             }
@@ -620,30 +619,29 @@
       }
     }
   }
-
   /*-----------------------------------------------------HEADER TABLETS-----------------------------------------------------*/
-  .header {
-    .header2 {
-      .navbar-nav {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 1.5rem;
+.header {
+  .header2 {
+    .navbar-nav {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1.5rem;
 
-        .nav-item {
-          .nav-link {
+      .nav-item {
+        .nav-link {
 
-            justify-content: space-around;
-            color: azure;
-            font-size: 3rem;
-            border-bottom: 0.1rem solid #ec008c;
-            border-top: 0.1rem solid #ec008c;
+          justify-content: space-around;
+          color: azure;
+          font-size: 3rem;
+           border-bottom: 0.1rem solid #ec008c;
+           border-top: 0.1rem solid #ec008c;
 
-          }
         }
       }
     }
   }
+}
 }
 
 
@@ -859,11 +857,10 @@
         }
       }
 
-
+      
 
     }
   }
-
   .mainSection {
     display: flex;
     flex-direction: row;
