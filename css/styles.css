@@ -1629,8 +1629,10 @@ p {
 
 .footer {
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: block;
-  position: absolute;
   padding-top: 1rem;
   bottom: 100;
   width: 100%;
@@ -2422,8 +2424,10 @@ p {
 
 .footer {
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: block;
-  position: absolute;
   padding-top: 1rem;
   bottom: 100;
   width: 100%;
@@ -3507,8 +3511,10 @@ p {
 
 .footer {
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: block;
-  position: absolute;
   padding-top: 1rem;
   bottom: 100;
   width: 100%;
@@ -4300,8 +4306,10 @@ p {
 
 .footer {
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: block;
-  position: absolute;
   padding-top: 1rem;
   bottom: 100;
   width: 100%;
