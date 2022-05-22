@@ -857,23 +857,24 @@
         }
       }
 
-      .mainSection {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
+      
 
-        .titleContact {
-          height: 500px;
-          width: 400px;
+    }
+  }
+  .mainSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 
-          h1 {
-            font-size: 50px;
-          }
-        }
+    .titleContact {
+      height: 500px;
+      width: 400px;
+
+      h1 {
+        font-size: 50px;
       }
-
     }
   }
 }

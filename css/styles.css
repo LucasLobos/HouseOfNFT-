@@ -638,7 +638,7 @@
     -webkit-transition: all 1.5s;
     transition: all 1.5s;
   }
-  .header .header2 .mainSection {
+  .mainSection {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -655,11 +655,11 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .header .header2 .mainSection .titleContact {
+  .mainSection .titleContact {
     height: 500px;
     width: 400px;
   }
-  .header .header2 .mainSection .titleContact h1 {
+  .mainSection .titleContact h1 {
     font-size: 50px;
   }
 }
@@ -1381,7 +1381,7 @@
     -webkit-transition: all 1.5s;
     transition: all 1.5s;
   }
-  .header .header2 .mainSection {
+  .mainSection {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1398,11 +1398,11 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .header .header2 .mainSection .titleContact {
+  .mainSection .titleContact {
     height: 500px;
     width: 400px;
   }
-  .header .header2 .mainSection .titleContact h1 {
+  .mainSection .titleContact h1 {
     font-size: 50px;
   }
 }
@@ -2280,7 +2280,7 @@ p {
     -webkit-transition: all 1.5s;
     transition: all 1.5s;
   }
-  .header .header2 .mainSection {
+  .mainSection {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2297,11 +2297,11 @@ p {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .header .header2 .mainSection .titleContact {
+  .mainSection .titleContact {
     height: 500px;
     width: 400px;
   }
-  .header .header2 .mainSection .titleContact h1 {
+  .mainSection .titleContact h1 {
     font-size: 50px;
   }
 }
@@ -3160,7 +3160,7 @@ p {
     -webkit-transition: all 1.5s;
     transition: all 1.5s;
   }
-  .header .header2 .mainSection {
+  .mainSection {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3177,11 +3177,11 @@ p {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .header .header2 .mainSection .titleContact {
+  .mainSection .titleContact {
     height: 500px;
     width: 400px;
   }
-  .header .header2 .mainSection .titleContact h1 {
+  .mainSection .titleContact h1 {
     font-size: 50px;
   }
 }
@@ -4092,7 +4092,7 @@ p {
     -webkit-transition: all 1.5s;
     transition: all 1.5s;
   }
-  .header .header2 .mainSection {
+  .mainSection {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4109,11 +4109,11 @@ p {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .header .header2 .mainSection .titleContact {
+  .mainSection .titleContact {
     height: 500px;
     width: 400px;
   }
-  .header .header2 .mainSection .titleContact h1 {
+  .mainSection .titleContact h1 {
     font-size: 50px;
   }
 }
@@ -5235,7 +5235,7 @@ main .img3 .surrealImage {
     -webkit-transition: all 1.5s;
     transition: all 1.5s;
   }
-  .header .header2 .mainSection {
+  .mainSection {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5252,11 +5252,11 @@ main .img3 .surrealImage {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .header .header2 .mainSection .titleContact {
+  .mainSection .titleContact {
     height: 500px;
     width: 400px;
   }
-  .header .header2 .mainSection .titleContact h1 {
+  .mainSection .titleContact h1 {
     font-size: 50px;
   }
 }
